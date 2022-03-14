@@ -2298,3 +2298,7 @@ p {
   color: #2bdbdc;
   box-shadow: 0px 0px 10px rgba(110, 110, 110, 0.8);
 }
+
+.logo-skills{
+  width: 100px;
+}
