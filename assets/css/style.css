@@ -1353,6 +1353,7 @@ p {
   .single-about .about-content .text {
     font-size: 16px;
     color: #121212;
+    /* text-align: justify; */
     margin-top: 16px; }
 
 /*===== ABOUT 2  =====*/
