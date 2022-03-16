@@ -1319,13 +1319,14 @@ p {
         font-size: 28px;
         line-height: 38px; } }
   .about-area .section-title .text {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
     color: #121212;
     margin-top: 8px; }
     @media (max-width: 767px) {
       .about-area .section-title .text {
-        font-size: 16px; } }
+        font-size: 16px; /* desc foto */
+        text-align: center;} }
 
 .single-about .about-icon img {
   width: 120px; }
@@ -1344,7 +1345,12 @@ p {
       padding-top: 0; } }
   @media (max-width: 767px) {
     .single-about .about-content .about-title {
-      text-align: center; } }
+      text-align: center; /* text title section hobby */
+    }
+    .single-about .about-content .text {
+      text-align: center;
+    }
+  } 
   .single-about .about-content .about-title {
     font-size: 20px;
     font-weight: 600;
@@ -1353,7 +1359,6 @@ p {
   .single-about .about-content .text {
     font-size: 16px;
     color: #121212;
-    /* text-align: justify; */
     margin-top: 16px; }
 
 /*===== ABOUT 2  =====*/
