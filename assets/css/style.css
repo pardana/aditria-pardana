@@ -1342,6 +1342,9 @@ p {
     .single-about .about-content {
       padding-left: 30px;
       padding-top: 0; } }
+  @media (max-width: 767px) {
+    .single-about .about-content .about-title {
+      text-align: center; } }
   .single-about .about-content .about-title {
     font-size: 20px;
     font-weight: 600;
