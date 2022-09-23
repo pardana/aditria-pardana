@@ -10,7 +10,13 @@ export default function Banner() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = [
+    "Frontend Developer",
+    "Web Designer",
+    "Web Developer",
+    "Graphic Design",
+    "Content Creator",
+  ];
   const period = 2000;
 
   useEffect(() => {
@@ -51,10 +57,10 @@ export default function Banner() {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
+            <span className="tagline">Hola! Welcome to my Portfolio</span>
             <h1>
-              {`Hi I'm Aditria Pardana`}
-              <span className="wrap"> {text}</span>
+              {`Aditria P. Pardana`}
+              <h2 className="wrap"> {text}</h2>
             </h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
