@@ -5,6 +5,8 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import ProjectCard from "./ProjectCard";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 export default function Projects() {
   const projects = [
@@ -45,11 +47,24 @@ export default function Projects() {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy
-            </p>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible
+                      ? "animate__animated animate__slideInUp animate__delay-0s"
+                      : ""
+                  }
+                >
+                  <h2>Projects</h2>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy
+                  </p>
+                </div>
+              )}
+            </TrackVisibility>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"
