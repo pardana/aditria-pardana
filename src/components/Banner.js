@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { Container, Row, Col, Nav } from "react-bootstrap";
+import * as Icon from "react-bootstrap-icons";
 import aditriaPardana from "../assets/img/AditriaPardana.jpg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -10,6 +10,7 @@ import { useState, useEffect } from "react";
 export default function Banner() {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [activeLink, setActiveLink] = useState("contact");
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const toRotate = [
@@ -54,11 +55,15 @@ export default function Banner() {
     }
   };
 
+  const onUpdateActiveLink = (value) => {
+    setActiveLink(value);
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={6} xl={5} className="format-picture">
             <img src={aditriaPardana} alt="Aditria Pardana" />
             {/* <h2 className="wrap"> {text}</h2> */}
           </Col>
@@ -73,7 +78,7 @@ export default function Banner() {
                       : ""
                   }
                 >
-                  <span className="tagline">Aditria P. Pardana, S. Kom.</span>
+                  <h2>Aditria P. Pardana, S. Kom.</h2>
                   <p>
                     "Hello World! I'm a
                     <span style={{ color: "#7569D8" }}>
@@ -83,9 +88,33 @@ export default function Banner() {
                     and learner who is always creating and learning amazing
                     things. Let's start scrolling and learn more about me".
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let's connect <ArrowRightCircle size={25} />
-                  </button>
+                  <Row className="align-items-center">
+                    <Col xs={12} md={6} xl={3}>
+                      <Nav.Link
+                        href="#contact"
+                        className={
+                          activeLink === "contact"
+                            ? "active navbar-link"
+                            : "navbar-link"
+                        }
+                        onClick={() => onUpdateActiveLink("contact")}
+                      >
+                        <button className="tagline form-control">
+                          Hire Me
+                          <Icon.PhoneVibrate size={20} color="white" />
+                        </button>
+                      </Nav.Link>
+                    </Col>
+                    <Col xs={12} md={6} xl={4}>
+                      <button
+                        className="tagline-second form-control"
+                        onClick={() => console.log("connect")}
+                      >
+                        View Resume
+                        <Icon.ArrowDownCircle size={20} color="white" />
+                      </button>
+                    </Col>
+                  </Row>
                 </div>
               )}
             </TrackVisibility>
