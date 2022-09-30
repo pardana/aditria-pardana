@@ -301,6 +301,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   animation: updown 3s linear infinite;
 }
+
+.banner img {
+  border-radius: 50%;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0px 5px 15px rgb(26, 26, 26);
+}
+
 @keyframes updown {
   0% {
     transform: translateY(-20px);

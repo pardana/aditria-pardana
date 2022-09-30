@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+import aditriaPardana from "../assets/img/AditriaPardana.jpg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -58,6 +58,11 @@ export default function Banner() {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
+          <Col xs={12} md={6} xl={5}>
+            <img src={aditriaPardana} alt="Aditria Pardana" />
+            {/* <h2 className="wrap"> {text}</h2> */}
+          </Col>
+
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -68,14 +73,13 @@ export default function Banner() {
                       : ""
                   }
                 >
-                  <span className="tagline">Hola! Welcome to my Portfolio</span>
-                  <h1>
-                    {`Aditria P. Pardana`}
-                    <h2 className="wrap"> {text}</h2>
-                  </h1>
+                  <span className="tagline">Aditria P. Pardana, S. Kom.</span>
                   <p>
-                    "Hello World! I'm a 
-                    <span style={{ color: "#7569D8" }}> FrontEnd Developer</span>{" "}
+                    "Hello World! I'm a
+                    <span style={{ color: "#7569D8" }}>
+                      {" "}
+                      FrontEnd Developer
+                    </span>{" "}
                     and learner who is always creating and learning amazing
                     things. Let's start scrolling and learn more about me".
                   </p>
@@ -85,9 +89,6 @@ export default function Banner() {
                 </div>
               )}
             </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img" />
           </Col>
         </Row>
       </Container>

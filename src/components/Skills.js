@@ -8,6 +8,7 @@ import logoJavascript from "../assets/img/logo-javascript.png";
 import logoReact from "../assets/img/logo-reactjs.png";
 import logoBootstrap from "../assets/img/logo-bootstrap.png";
 import logoCodeigniter from "../assets/img/logo-codeigniter.png";
+import logoGit from "../assets/img/logo-git.png";
 import logoMysql from "../assets/img/logo-mysql.png";
 import logoFigma from "../assets/img/logo-figma.png";
 import logoPhotoshop from "../assets/img/logo-photoshop.png";
@@ -80,6 +81,10 @@ export default function Skills() {
                 <div className="item">
                   <img src={logoMysql} alt="Image" />
                   <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <img src={logoGit} alt="Image" />
+                  <h5>Git</h5>
                 </div>
                 <div className="item">
                   <img src={logoFigma} alt="Image" />
