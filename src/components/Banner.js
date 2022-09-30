@@ -78,7 +78,7 @@ export default function Banner() {
                     "Hello World! I'm a
                     <span style={{ color: "#7569D8" }}>
                       {" "}
-                      FrontEnd Developer
+                      Frontend Developer
                     </span>{" "}
                     and learner who is always creating and learning amazing
                     things. Let's start scrolling and learn more about me".

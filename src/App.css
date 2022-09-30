@@ -172,6 +172,7 @@ span.navbar-text {
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
+  border-radius: 8px;
 }
 .navbar-text button span {
   z-index: 1;
@@ -260,10 +261,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     rgba(170, 54, 124, 0.5) -5.91%,
     rgba(74, 47, 189, 0.5) 111.58%
   );
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  border-radius: 8px;
 }
 .banner h1 {
   font-size: 65px;

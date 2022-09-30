@@ -82,9 +82,9 @@ export default function Navigation() {
               </a>
             </div>
             {/* <HashLink to="#connect"> */}
-            <button className="vvd">
+            {/* <button className="vvd">
               <span>Let’s Connect</span>
-            </button>
+            </button> */}
             {/* </HashLink> */}
           </span>
         </Navbar.Collapse>
