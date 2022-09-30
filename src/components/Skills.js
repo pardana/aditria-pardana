@@ -2,9 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import logoHtml from "../assets/img/logo-html.png";
+import logoCss from "../assets/img/logo-css.png";
+import logoJavascript from "../assets/img/logo-javascript.png";
+import logoReact from "../assets/img/logo-reactjs.png";
+import logoBootstrap from "../assets/img/logo-bootstrap.png";
+import logoCodeigniter from "../assets/img/logo-codeigniter.png";
+import logoMysql from "../assets/img/logo-mysql.png";
+import logoFigma from "../assets/img/logo-figma.png";
+import logoPhotoshop from "../assets/img/logo-photoshop.png";
+import logoImovie from "../assets/img/logo-imovie.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export default function Skills() {
@@ -35,11 +42,11 @@ export default function Skills() {
           <Col>
             <div className="skill-bx">
               <h2>Skills</h2>
-              <p>
+              {/* <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s
-              </p>
+              </p> */}
 
               <Carousel
                 responsive={responsive}
@@ -47,20 +54,44 @@ export default function Skills() {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={logoHtml} alt="Image" />
+                  <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Web Designer</h5>
+                  <img src={logoCss} alt="Image" />
+                  <h5>CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <img src={logoJavascript} alt="Image" />
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>UI/UX Designer</h5>
+                  <img src={logoReact} alt="Image" />
+                  <h5>React JS</h5>
+                </div>
+                <div className="item">
+                  <img src={logoBootstrap} alt="Image" />
+                  <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img src={logoCodeigniter} alt="Image" />
+                  <h5>CodeIgniter</h5>
+                </div>
+                <div className="item">
+                  <img src={logoMysql} alt="Image" />
+                  <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <img src={logoFigma} alt="Image" />
+                  <h5>Figma</h5>
+                </div>
+                <div className="item">
+                  <img src={logoPhotoshop} alt="Image" />
+                  <h5>Photoshop</h5>
+                </div>
+                <div className="item">
+                  <img src={logoImovie} alt="Image" />
+                  <h5>iMovie</h5>
                 </div>
               </Carousel>
             </div>
