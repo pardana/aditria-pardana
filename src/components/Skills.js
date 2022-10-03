@@ -50,9 +50,12 @@ export default function Skills() {
               </p> */}
 
               <Carousel
+                className="skill-slider"
                 responsive={responsive}
                 infinite={true}
-                className="skill-slider"
+                swipeable={true}
+                autoPlay={true}
+                autoPlaySpeed={3000}
               >
                 <div className="item">
                   <img src={logoHtml} alt="Image" />
