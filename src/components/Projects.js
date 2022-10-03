@@ -13,18 +13,26 @@ export default function Projects() {
   const projects = [
     {
       title: "UI/UX Web",
-      description: "UI/UX Design GOFURniture (Web Furniture)",
       imgUrl: uiuxGofurniture1,
+      tech: "Figma",
+      description: "UI/UX Design GOFURniture (Web Furniture)",
+      imgDetails: 
+        {
+          names: [uiuxGofurniture1, uiuxiCation1, uiuxiNada1,uiuxGofurniture1, uiuxiCation1, uiuxiNada1],
+        },
+      
     },
     {
       title: "UI/UX Web",
-      description: "UI/UX Design iCation (Hotel Vacation)",
       imgUrl: uiuxiCation1,
+      tech: "Figma",
+      description: "UI/UX Design iCation (Hotel Vacation)",
     },
     {
       title: "UI/UX Mobile",
-      description: "UI/UX Design iNada (Music Player)",
       imgUrl: uiuxiNada1,
+      tech: "Figma",
+      description: "UI/UX Design iNada (Music Player)",
     },
   ];
 
@@ -43,11 +51,11 @@ export default function Projects() {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>
+                  {/* <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy
-                  </p>
+                  </p> */}
                 </div>
               )}
             </TrackVisibility>
@@ -79,9 +87,17 @@ export default function Projects() {
                   </Row>
                 </Tab.Pane>
 
-                <Tab.Pane eventKey="second">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy
+                </Tab.Pane>
 
-                <Tab.Pane eventKey="third">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</Tab.Pane>
+                <Tab.Pane eventKey="third">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy
+                </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>

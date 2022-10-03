@@ -515,8 +515,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.modal-title{
+  color: #151515;
+}
+.modal-body{
+  color: #151515;
+}
+.modal-body{
+  color: #151515;
+}
+.modal-body img{
+  padding: 5px;
+  text-align: center;
+}
+/* .modal-footer{
+  color: #151515;
+} */
+.modal-footer button{
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+}
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   padding: 60px 0 200px 0;
