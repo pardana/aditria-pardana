@@ -2,8 +2,17 @@ import React from "react";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import uiuxGofurniture1 from "../assets/img/uiux-gofurniture1.jpg";
+import uiuxGofurniture2 from "../assets/img/uiux-gofurniture2.jpg";
+import uiuxGofurniture3 from "../assets/img/uiux-gofurniture3.jpg";
+
 import uiuxiCation1 from "../assets/img/uiux-ication1.jpg";
+import uiuxiCation2 from "../assets/img/uiux-ication2.jpg";
+import uiuxiCation3 from "../assets/img/uiux-ication3.jpg";
+import uiuxiCation4 from "../assets/img/uiux-ication4.jpg";
+
 import uiuxiNada1 from "../assets/img/uiux-inada1.jpg";
+import uiuxiNada2 from "../assets/img/uiux-inada2.jpg";
+import uiuxiNada3 from "../assets/img/uiux-inada3.jpg";
 
 import ProjectCard from "./ProjectCard";
 import "animate.css";
@@ -16,23 +25,27 @@ export default function Projects() {
       imgUrl: uiuxGofurniture1,
       tech: "Figma",
       description: "UI/UX Design GOFURniture (Web Furniture)",
-      imgDetails: 
-        {
-          names: [uiuxGofurniture1, uiuxiCation1, uiuxiNada1,uiuxGofurniture1, uiuxiCation1, uiuxiNada1],
-        },
-      
+      imgDetails: {
+        names: [uiuxGofurniture1, uiuxGofurniture2, uiuxGofurniture3],
+      },
     },
     {
       title: "UI/UX Web",
       imgUrl: uiuxiCation1,
       tech: "Figma",
       description: "UI/UX Design iCation (Hotel Vacation)",
+      imgDetails: {
+        names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
+      },
     },
     {
       title: "UI/UX Mobile",
       imgUrl: uiuxiNada1,
       tech: "Figma",
       description: "UI/UX Design iNada (Music Player)",
+      imgDetails: {
+        names: [uiuxiNada2, uiuxiNada1, uiuxiNada3],
+      },
     },
   ];
 
