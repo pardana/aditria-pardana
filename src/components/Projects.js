@@ -19,7 +19,7 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export default function Projects() {
-  const projects = [
+  const projectsUIUX = [
     {
       title: "UI/UX Web",
       imgUrl: uiuxGofurniture1,
@@ -45,6 +45,18 @@ export default function Projects() {
       description: "UI/UX Design iNada (Music Player)",
       imgDetails: {
         names: [uiuxiNada2, uiuxiNada1, uiuxiNada3],
+      },
+    },
+  ];
+
+  const projectsWeb = [
+    {
+      title: "Web Development",
+      imgUrl: uiuxiCation1,
+      tech: "HTML5, CSS3, React JS, Bootstrap",
+      description: "Web iCation (Hotel Vacation)",
+      imgDetails: {
+        names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
       },
     },
   ];
@@ -94,16 +106,18 @@ export default function Projects() {
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <Row>
-                    {projects.map((project, index) => {
-                      return <ProjectCard key={index} {...project} />;
+                    {projectsUIUX.map((projectUIUX, index) => {
+                      return <ProjectCard key={index} {...projectUIUX} />;
                     })}
                   </Row>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="second">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy
+                  <Row>
+                    {projectsWeb.map((projectWeb, index) => {
+                      return <ProjectCard key={index} {...projectWeb} />;
+                    })}
+                  </Row>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
