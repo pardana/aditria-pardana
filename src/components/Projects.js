@@ -14,6 +14,14 @@ import uiuxiNada1 from "../assets/img/uiux-inada1.jpg";
 import uiuxiNada2 from "../assets/img/uiux-inada2.jpg";
 import uiuxiNada3 from "../assets/img/uiux-inada3.jpg";
 
+import webLuxspace0 from "../assets/img/web-luxspace0.jpg";
+import webLuxspace1 from "../assets/img/web-luxspace1.jpg";
+import webLuxspace2 from "../assets/img/web-luxspace2.jpg";
+import webLuxspace3 from "../assets/img/web-luxspace3.jpg";
+import webLuxspace4 from "../assets/img/web-luxspace4.jpg";
+import webLuxspace5 from "../assets/img/web-luxspace5.jpg";
+import webLuxspace6 from "../assets/img/web-luxspace6.jpg";
+
 import ProjectCard from "./ProjectCard";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -57,6 +65,22 @@ export default function Projects() {
       description: "Web iCation (Hotel Vacation)",
       imgDetails: {
         names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
+      },
+    },
+    {
+      title: "Web Development",
+      imgUrl: webLuxspace0,
+      tech: "HTML5, CSS3, React JS, Tailwind",
+      description: "Web Luxspace (Web Furniture like Ikea)",
+      imgDetails: {
+        names: [
+          webLuxspace1,
+          webLuxspace2,
+          webLuxspace3,
+          webLuxspace4,
+          webLuxspace6,
+          webLuxspace5,
+        ],
       },
     },
   ];
