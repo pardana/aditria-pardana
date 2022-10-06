@@ -78,15 +78,17 @@ export default function Banner() {
                       : ""
                   }
                 >
-                  <h2>Aditria P. Pardana, S. Kom.</h2>
+                  <h2>Aditria Pardana</h2>
                   <p>
-                    "Hello World! I'm a
-                    <span style={{ color: "#7569D8" }}>
-                      {" "}
-                      Frontend Developer
-                    </span>{" "}
-                    and learner who is always creating and learning amazing
-                    things. Let's start scrolling and learn more about me".
+                    Hola! I'm a
+                    <span style={{ color: "#7569D8" }}> React Developer</span>{" "}
+                    for 3 years. I have been working with several clients in the
+                    past, and they love my work! So I will be a valuable assets
+                    to your company.
+                  </p>
+                  <p>
+                    Let me hear what you have in mind for me to develop for your
+                    next apps! Let's start scrolling and learn more about me.
                   </p>
                   <Row className="align-items-center">
                     <Col xs={12} md={6} xl={3}>
@@ -110,7 +112,7 @@ export default function Banner() {
                         className="tagline-second form-control"
                         onClick={() => console.log("connect")}
                       >
-                        View Resume
+                        View CV
                         <Icon.ArrowDownCircle size={20} color="white" />
                       </button>
                     </Col>
