@@ -14,7 +14,7 @@ export default function ProjectCard({
   return (
     <Col sm={12} md={6} xl={4}>
       <div className="proj-imgbx">
-        <img src={imgUrl} alt="Project Card" />
+        <img src={imgUrl} alt={description} />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>

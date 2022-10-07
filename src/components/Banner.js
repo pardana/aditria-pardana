@@ -81,8 +81,8 @@ export default function Banner() {
                   <h2>Aditria Pardana</h2>
                   <p>
                     Hola! I'm a
-                    <span style={{ color: "#7569D8" }}> React Developer</span>{" "}
-                    for 3 years. I have been working with several clients in the
+                    <span style={{ color: "#7569D8" }}> Frontend Developer</span>{" "}
+                    for 3+ years. I have been working with several clients in the
                     past, and they love my work! So I will be a valuable assets
                     to your company.
                   </p>

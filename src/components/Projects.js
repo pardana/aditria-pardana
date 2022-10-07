@@ -45,6 +45,12 @@ import webFloret2 from "../assets/img/web-Floret2.png";
 import webFloret3 from "../assets/img/web-Floret3.png";
 import webFloret4 from "../assets/img/web-Floret4.png";
 
+import webMRMS0 from "../assets/img/web-MRMS0.png";
+import webMRMS1 from "../assets/img/web-MRMS1.png";
+import webMRMS2 from "../assets/img/web-MRMS2.png";
+import webMRMS3 from "../assets/img/web-MRMS3.png";
+import webMRMS4 from "../assets/img/web-MRMS4.png";
+
 import webLuxspace0 from "../assets/img/web-luxspace0.jpg";
 import webLuxspace1 from "../assets/img/web-luxspace1.jpg";
 import webLuxspace2 from "../assets/img/web-luxspace2.jpg";
@@ -63,7 +69,7 @@ export default function Projects() {
       title: "Gofurniture",
       imgUrl: uiuxGofurniture1,
       tech: "Figma",
-      description: "UI/UX Web Design GOFURniture (Web Furniture)",
+      description: "UI/UX Web GOFURniture (Web Furniture)",
       imgDetails: {
         names: [uiuxGofurniture1, uiuxGofurniture2, uiuxGofurniture3],
       },
@@ -88,7 +94,7 @@ export default function Projects() {
       title: "iCation",
       imgUrl: uiuxiCation1,
       tech: "Figma",
-      description: "UI/UX Web Design iCation (Hotel Vacation)",
+      description: "UI/UX Web iCation (Hotel Vacation)",
       imgDetails: {
         names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
       },
@@ -142,6 +148,15 @@ export default function Projects() {
       },
     },
     {
+      title: "MRMS",
+      imgUrl: webMRMS0,
+      tech: "HTML5, CSS3, Bootstrap, React JS",
+      description: "MRMS (Meeting Room Management System)",
+      imgDetails: {
+        names: [webMRMS1, webMRMS2, webMRMS3, webMRMS4],
+      },
+    },
+    {
       title: "iCation",
       imgUrl: uiuxiCation1,
       tech: "HTML5, CSS3, React JS, Bootstrap",
@@ -173,7 +188,7 @@ export default function Projects() {
       <Container>
         <Row>
           <Col>
-            <TrackVisibility>
+            {/* <TrackVisibility>
               {({ isVisible }) => (
                 <div
                   className={
@@ -181,16 +196,16 @@ export default function Projects() {
                       ? "animate__animated animate__slideInUp animate__delay-0s"
                       : ""
                   }
-                >
-                  <h2>Projects</h2>
-                  {/* <p>
+                > */}
+            <h2>Projects</h2>
+            {/* <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy
                   </p> */}
-                </div>
+            {/* </div>
               )}
-            </TrackVisibility>
+            </TrackVisibility> */}
 
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
