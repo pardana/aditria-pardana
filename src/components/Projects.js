@@ -40,6 +40,11 @@ import webPOS3 from "../assets/img/web-POS3.png";
 import webPOS4 from "../assets/img/web-POS4.png";
 import webPOS5 from "../assets/img/web-POS5.png";
 
+import webFloret1 from "../assets/img/web-Floret1.png";
+import webFloret2 from "../assets/img/web-Floret2.png";
+import webFloret3 from "../assets/img/web-Floret3.png";
+import webFloret4 from "../assets/img/web-Floret4.png";
+
 import webLuxspace0 from "../assets/img/web-luxspace0.jpg";
 import webLuxspace1 from "../assets/img/web-luxspace1.jpg";
 import webLuxspace2 from "../assets/img/web-luxspace2.jpg";
@@ -104,7 +109,7 @@ export default function Projects() {
       title: "PDMS",
       imgUrl: webPDMS1,
       tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Framework",
-      description: "Web PDMS (Product Development Management System)",
+      description: "PDMS (Product Development Manufacture System)",
       imgDetails: {
         names: [webPDMS1, webPDMS2, webPDMS3, webPDMS4, webPDMS5, webPDMS6],
       },
@@ -113,7 +118,7 @@ export default function Projects() {
       title: "iCargo",
       imgUrl: webIcargo0,
       tech: "HTML5, CSS3, Bootstrap, PHP Codeigniter",
-      description: "Web iCargo DO (Delivery Order)",
+      description: "iCargo DO (Delivery Order)",
       imgDetails: {
         names: [webIcargo1, webIcargo2, webIcargo3, webIcargo4],
       },
@@ -122,16 +127,25 @@ export default function Projects() {
       title: "SGS POS",
       imgUrl: webPOS1,
       tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Codeigniter",
-      description: "Web SGS POS (Point of Sales)",
+      description: "SGS POS (Point of Sales)",
       imgDetails: {
         names: [webPOS1, webPOS2, webPOS3, webPOS4, webPOS5],
+      },
+    },
+    {
+      title: "Floret POS",
+      imgUrl: webFloret1,
+      tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Codeigniter",
+      description: "Floret POS (Point of Sales)",
+      imgDetails: {
+        names: [webFloret1, webFloret2, webFloret3, webFloret4],
       },
     },
     {
       title: "iCation",
       imgUrl: uiuxiCation1,
       tech: "HTML5, CSS3, React JS, Bootstrap",
-      description: "Web iCation (Hotel Vacation)",
+      description: "iCation (Hotel Vacation)",
       imgDetails: {
         names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
       },
@@ -140,7 +154,7 @@ export default function Projects() {
       title: "Lux Space",
       imgUrl: webLuxspace0,
       tech: "HTML5, CSS3, React JS, Tailwind",
-      description: "Web Luxspace (Web Furniture like Ikea)",
+      description: "Lux Space (Web Furniture like Ikea)",
       imgDetails: {
         names: [
           webLuxspace1,
