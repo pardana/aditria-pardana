@@ -29,6 +29,13 @@ import webLuxspace4 from "../assets/img/web-luxspace4.jpg";
 import webLuxspace5 from "../assets/img/web-luxspace5.jpg";
 import webLuxspace6 from "../assets/img/web-luxspace6.jpg";
 
+import webPDMS1 from "../assets/img/web-PDMS1.png";
+import webPDMS2 from "../assets/img/web-PDMS2.png";
+import webPDMS3 from "../assets/img/web-PDMS3.png";
+import webPDMS4 from "../assets/img/web-PDMS4.png";
+import webPDMS5 from "../assets/img/web-PDMS5.png";
+import webPDMS6 from "../assets/img/web-PDMS6.png";
+
 import ProjectCard from "./ProjectCard";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -81,6 +88,15 @@ export default function Projects() {
   ];
 
   const projectsWeb = [
+    {
+      title: "PDMS",
+      imgUrl: webPDMS1,
+      tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Framework",
+      description: "Web PDMS (Product Development Management System)",
+      imgDetails: {
+        names: [webPDMS1, webPDMS2, webPDMS3, webPDMS4, webPDMS5, webPDMS6],
+      },
+    },
     {
       title: "iCation",
       imgUrl: uiuxiCation1,
