@@ -34,6 +34,12 @@ import webIcargo2 from "../assets/img/web-icargo2.png";
 import webIcargo3 from "../assets/img/web-icargo3.png";
 import webIcargo4 from "../assets/img/web-icargo4.png";
 
+import webPOS1 from "../assets/img/web-POS1.png";
+import webPOS2 from "../assets/img/web-POS2.png";
+import webPOS3 from "../assets/img/web-POS3.png";
+import webPOS4 from "../assets/img/web-POS4.png";
+import webPOS5 from "../assets/img/web-POS5.png";
+
 import webLuxspace0 from "../assets/img/web-luxspace0.jpg";
 import webLuxspace1 from "../assets/img/web-luxspace1.jpg";
 import webLuxspace2 from "../assets/img/web-luxspace2.jpg";
@@ -58,15 +64,6 @@ export default function Projects() {
       },
     },
     {
-      title: "iCation",
-      imgUrl: uiuxiCation1,
-      tech: "Figma",
-      description: "UI/UX Web Design iCation (Hotel Vacation)",
-      imgDetails: {
-        names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
-      },
-    },
-    {
       title: "SGSIS",
       imgUrl: uiuxSGSIS1,
       tech: "Figma",
@@ -80,6 +77,15 @@ export default function Projects() {
           uiuxSGSIS3,
           uiuxSGSIS4,
         ],
+      },
+    },
+    {
+      title: "iCation",
+      imgUrl: uiuxiCation1,
+      tech: "Figma",
+      description: "UI/UX Web Design iCation (Hotel Vacation)",
+      imgDetails: {
+        names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
       },
     },
     {
@@ -110,6 +116,15 @@ export default function Projects() {
       description: "Web iCargo DO (Delivery Order)",
       imgDetails: {
         names: [webIcargo1, webIcargo2, webIcargo3, webIcargo4],
+      },
+    },
+    {
+      title: "SGS POS",
+      imgUrl: webPOS1,
+      tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Codeigniter",
+      description: "Web SGS POS (Point of Sales)",
+      imgDetails: {
+        names: [webPOS1, webPOS2, webPOS3, webPOS4, webPOS5],
       },
     },
     {
