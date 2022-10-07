@@ -51,6 +51,9 @@ import webMRMS2 from "../assets/img/web-MRMS2.png";
 import webMRMS3 from "../assets/img/web-MRMS3.png";
 import webMRMS4 from "../assets/img/web-MRMS4.png";
 
+import webTelepatia1 from "../assets/img/web-telepatia1.JPG";
+import webTelepatia2 from "../assets/img/web-telepatia2.JPG";
+
 import webLuxspace0 from "../assets/img/web-luxspace0.jpg";
 import webLuxspace1 from "../assets/img/web-luxspace1.jpg";
 import webLuxspace2 from "../assets/img/web-luxspace2.jpg";
@@ -154,6 +157,15 @@ export default function Projects() {
       description: "MRMS (Meeting Room Management System)",
       imgDetails: {
         names: [webMRMS1, webMRMS2, webMRMS3, webMRMS4],
+      },
+    },
+    {
+      title: "Telepatia",
+      imgUrl: webTelepatia1,
+      tech: "HTML5, CSS3, Sass CSS",
+      description: "Landing Pages Card",
+      imgDetails: {
+        names: [webTelepatia1, webTelepatia2],
       },
     },
     {
