@@ -14,6 +14,13 @@ import uiuxiNada1 from "../assets/img/uiux-inada1.jpg";
 import uiuxiNada2 from "../assets/img/uiux-inada2.jpg";
 import uiuxiNada3 from "../assets/img/uiux-inada3.jpg";
 
+import uiuxSGSIS1 from "../assets/img/uiux-sgsis1.png";
+import uiuxSGSIS2 from "../assets/img/uiux-sgsis2.png";
+import uiuxSGSIS3 from "../assets/img/uiux-sgsis3.png";
+import uiuxSGSIS4 from "../assets/img/uiux-sgsis4.png";
+import uiuxSGSIS5 from "../assets/img/uiux-sgsis5.png";
+import uiuxSGSIS6 from "../assets/img/uiux-sgsis6.png";
+
 import webLuxspace0 from "../assets/img/web-luxspace0.jpg";
 import webLuxspace1 from "../assets/img/web-luxspace1.jpg";
 import webLuxspace2 from "../assets/img/web-luxspace2.jpg";
@@ -29,28 +36,44 @@ import TrackVisibility from "react-on-screen";
 export default function Projects() {
   const projectsUIUX = [
     {
-      title: "UI/UX Web",
+      title: "Gofurniture",
       imgUrl: uiuxGofurniture1,
       tech: "Figma",
-      description: "UI/UX Design GOFURniture (Web Furniture)",
+      description: "UI/UX Web Design GOFURniture (Web Furniture)",
       imgDetails: {
         names: [uiuxGofurniture1, uiuxGofurniture2, uiuxGofurniture3],
       },
     },
     {
-      title: "UI/UX Web",
+      title: "iCation",
       imgUrl: uiuxiCation1,
       tech: "Figma",
-      description: "UI/UX Design iCation (Hotel Vacation)",
+      description: "UI/UX Web Design iCation (Hotel Vacation)",
       imgDetails: {
         names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
       },
     },
     {
-      title: "UI/UX Mobile",
+      title: "SGSIS",
+      imgUrl: uiuxSGSIS1,
+      tech: "Figma",
+      description: "UI/UX Mobile SGSIS",
+      imgDetails: {
+        names: [
+          uiuxSGSIS1,
+          uiuxSGSIS2,
+          uiuxSGSIS5,
+          uiuxSGSIS6,
+          uiuxSGSIS3,
+          uiuxSGSIS4,
+        ],
+      },
+    },
+    {
+      title: "iNada",
       imgUrl: uiuxiNada1,
       tech: "Figma",
-      description: "UI/UX Design iNada (Music Player)",
+      description: "UI/UX Mobile iNada (Music Player)",
       imgDetails: {
         names: [uiuxiNada2, uiuxiNada1, uiuxiNada3],
       },
@@ -59,7 +82,7 @@ export default function Projects() {
 
   const projectsWeb = [
     {
-      title: "Web Development",
+      title: "iCation",
       imgUrl: uiuxiCation1,
       tech: "HTML5, CSS3, React JS, Bootstrap",
       description: "Web iCation (Hotel Vacation)",
@@ -68,7 +91,7 @@ export default function Projects() {
       },
     },
     {
-      title: "Web Development",
+      title: "Lux Space",
       imgUrl: webLuxspace0,
       tech: "HTML5, CSS3, React JS, Tailwind",
       description: "Web Luxspace (Web Furniture like Ikea)",
