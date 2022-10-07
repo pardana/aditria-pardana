@@ -21,6 +21,19 @@ import uiuxSGSIS4 from "../assets/img/uiux-sgsis4.png";
 import uiuxSGSIS5 from "../assets/img/uiux-sgsis5.png";
 import uiuxSGSIS6 from "../assets/img/uiux-sgsis6.png";
 
+import webPDMS1 from "../assets/img/web-PDMS1.png";
+import webPDMS2 from "../assets/img/web-PDMS2.png";
+import webPDMS3 from "../assets/img/web-PDMS3.png";
+import webPDMS4 from "../assets/img/web-PDMS4.png";
+import webPDMS5 from "../assets/img/web-PDMS5.png";
+import webPDMS6 from "../assets/img/web-PDMS6.png";
+
+import webIcargo0 from "../assets/img/web-icargo0.png";
+import webIcargo1 from "../assets/img/web-icargo1.png";
+import webIcargo2 from "../assets/img/web-icargo2.png";
+import webIcargo3 from "../assets/img/web-icargo3.png";
+import webIcargo4 from "../assets/img/web-icargo4.png";
+
 import webLuxspace0 from "../assets/img/web-luxspace0.jpg";
 import webLuxspace1 from "../assets/img/web-luxspace1.jpg";
 import webLuxspace2 from "../assets/img/web-luxspace2.jpg";
@@ -28,13 +41,6 @@ import webLuxspace3 from "../assets/img/web-luxspace3.jpg";
 import webLuxspace4 from "../assets/img/web-luxspace4.jpg";
 import webLuxspace5 from "../assets/img/web-luxspace5.jpg";
 import webLuxspace6 from "../assets/img/web-luxspace6.jpg";
-
-import webPDMS1 from "../assets/img/web-PDMS1.png";
-import webPDMS2 from "../assets/img/web-PDMS2.png";
-import webPDMS3 from "../assets/img/web-PDMS3.png";
-import webPDMS4 from "../assets/img/web-PDMS4.png";
-import webPDMS5 from "../assets/img/web-PDMS5.png";
-import webPDMS6 from "../assets/img/web-PDMS6.png";
 
 import ProjectCard from "./ProjectCard";
 import "animate.css";
@@ -91,10 +97,19 @@ export default function Projects() {
     {
       title: "PDMS",
       imgUrl: webPDMS1,
-      tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Framework",
+      tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Framework",
       description: "Web PDMS (Product Development Management System)",
       imgDetails: {
         names: [webPDMS1, webPDMS2, webPDMS3, webPDMS4, webPDMS5, webPDMS6],
+      },
+    },
+    {
+      title: "iCargo",
+      imgUrl: webIcargo0,
+      tech: "HTML5, CSS3, Bootstrap, PHP Codeigniter",
+      description: "Web iCargo DO (Delivery Order)",
+      imgDetails: {
+        names: [webIcargo1, webIcargo2, webIcargo3, webIcargo4],
       },
     },
     {
