@@ -81,10 +81,13 @@ export default function Banner() {
                   <h2>Aditria Pardana</h2>
                   <p>
                     Hola! I'm a
-                    <span style={{ color: "#7569D8" }}> Frontend Developer</span>{" "}
-                    for 3+ years. I have been working with several clients in the
-                    past, and they love my work! So I will be a valuable assets
-                    to your company.
+                    <span style={{ color: "#7569D8" }}>
+                      {" "}
+                      Frontend Developer
+                    </span>{" "}
+                    for 3+ years. I have been working with several clients in
+                    the past, and they love my work! So I will be a valuable
+                    assets to your company.
                   </p>
                   <p>
                     Let me hear what you have in mind for me to develop for your
@@ -108,13 +111,18 @@ export default function Banner() {
                       </Nav.Link>
                     </Col>
                     <Col xs={12} md={6} xl={4}>
-                      <button
-                        className="tagline-second form-control"
-                        onClick={() => console.log("connect")}
+                      <a
+                        href="https://resume.showwcase.com/appardana.pdf"
+                        target="_blank"
                       >
-                        View CV
-                        <Icon.ArrowDownCircle size={20} color="white" />
-                      </button>
+                        <button
+                          className="tagline-second form-control"
+                          onClick={() => console.log("connect")}
+                        >
+                          View CV
+                          <Icon.ArrowDownCircle size={20} color="white" />
+                        </button>
+                      </a>
                     </Col>
                   </Row>
                 </div>
