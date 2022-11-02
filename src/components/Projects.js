@@ -226,14 +226,14 @@ export default function Projects() {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">UI/UX Design</Nav.Link>
+                  <Nav.Link eventKey="first">UI/UX</Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Web Development</Nav.Link>
+                  <Nav.Link eventKey="second">Web</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Graphic Design</Nav.Link>
+                  <Nav.Link eventKey="third"> Design</Nav.Link>
                 </Nav.Item>
               </Nav>
 
