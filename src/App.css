@@ -97,7 +97,7 @@ nav.navbar {
   padding: 18px 0;
   position: fixed;
   width: 100%;
-  top: 0;
+  top: -2px;
   z-index: 9999;
   transition: 0.32s ease-in-out;
 }
@@ -146,7 +146,7 @@ span.navbar-text {
   width: 42px;
   height: 42px;
   position: absolute;
-  background-color: #ffffff;
+  //background-color: #ffffff;
   border-radius: 50%;
   transform: scale(0);
   transition: 0.3s ease-in-out;
