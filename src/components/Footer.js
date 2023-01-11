@@ -20,6 +20,13 @@ export default function Footer() {
             <div className="social-icon">
               <a
                 style={{ color: "white" }}
+                href="https://wa.me/6285781476040?text=Hi,%20Aditria%20Pardana%20disini,%20kamu%20mau%20buat%20web%20apa?%20segera%20konsultasikan%20keinginan%20kamu%20ke%20saya!%20Hi,%20saya%20ingin%20membuat%20web..."
+                target="_blank"
+              >
+                <BsWhatsapp />
+              </a>
+              <a
+                style={{ color: "white" }}
                 href="https://www.linkedin.com/in/aditria-pardana-b846a9121/"
                 target="_blank"
               >
