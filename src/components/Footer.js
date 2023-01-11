@@ -4,6 +4,9 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import moment from "moment";
+
+const dateTime = new Date();
 
 export default function Footer() {
   return (
@@ -11,7 +14,8 @@ export default function Footer() {
       <Container>
         <Row className="align-items-center">
           <Col sm={6}>
-            <img src={logo} alt="Logo" />
+            {/* <img src={logo} alt="Logo" /> */}
+            <h4>@appardana</h4>
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -25,7 +29,10 @@ export default function Footer() {
                 <img src={navIcon3} />
               </a>
             </div>
-            <p>Copyright 2022. All Right Reserved Aditria P. Pardana</p>
+            <p>
+              &copy; {moment(dateTime).format("YYYY")}. All Right Reserved
+              Aditria P. Pardana
+            </p>
           </Col>
         </Row>
       </Container>
