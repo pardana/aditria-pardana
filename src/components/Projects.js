@@ -62,6 +62,10 @@ import webLuxspace4 from "../assets/img/web-luxspace4.jpg";
 import webLuxspace5 from "../assets/img/web-luxspace5.jpg";
 import webLuxspace6 from "../assets/img/web-luxspace6.jpg";
 
+import webTecnogas1 from "../assets/img/web-tecnogas1.jpg";
+import webTecnogas2 from "../assets/img/web-tecnogas2.jpg";
+import webTecnogas3 from "../assets/img/web-tecnogas3.jpg";
+
 import ProjectCard from "./ProjectCard";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -190,6 +194,19 @@ export default function Projects() {
           webLuxspace4,
           webLuxspace6,
           webLuxspace5,
+        ],
+      },
+    },
+    {
+      title: "Tecnogas Indonesia",
+      imgUrl: webTecnogas1,
+      tech: "HTML5, CSS3, React JS, Tailwind",
+      description: "Jasa Service Tecnogas Indonesia",
+      imgDetails: {
+        names: [
+          webTecnogas1,
+          webTecnogas2,
+          webTecnogas3
         ],
       },
     },
