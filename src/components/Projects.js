@@ -243,11 +243,11 @@ export default function Projects() {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">UI/UX</Nav.Link>
+                  <Nav.Link eventKey="first">Web</Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Web</Nav.Link>
+                  <Nav.Link eventKey="second">UI/UX</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third"> Design</Nav.Link>
@@ -257,16 +257,16 @@ export default function Projects() {
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <Row>
-                    {projectsUIUX.map((projectUIUX, index) => {
-                      return <ProjectCard key={index} {...projectUIUX} />;
+                    {projectsWeb.map((projectWeb, index) => {
+                      return <ProjectCard key={index} {...projectWeb} />;
                     })}
                   </Row>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="second">
                   <Row>
-                    {projectsWeb.map((projectWeb, index) => {
-                      return <ProjectCard key={index} {...projectWeb} />;
+                    {projectsUIUX.map((projectUIUX, index) => {
+                      return <ProjectCard key={index} {...projectUIUX} />;
                     })}
                   </Row>
                 </Tab.Pane>

@@ -25,7 +25,9 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(`Oops! This features on progres...`)
+    alert(
+      `Oops! This features on progres. You can contact me with email aditria.pardana20@gmail.com`
+    );
     // setButtonText("Sending...");
     // let response = await fetch("http://localhost:5000/contact", {
     //   method: "POST",
