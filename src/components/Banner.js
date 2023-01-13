@@ -85,7 +85,7 @@ export default function Banner() {
                       {" "}
                       Frontend Developer
                     </span>{" "}
-                    for 3+ years. I have been working with several clients in
+                    for 5+ years. I have been working with several clients in
                     the past, and they love my work! So I will be a valuable
                     assets to your company.
                   </p>

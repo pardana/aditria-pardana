@@ -327,7 +327,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   animation: updown 3s linear infinite;
 }
 
-.banner .format-picture{
+.banner .format-picture {
   padding-bottom: 30px;
 }
 
@@ -378,6 +378,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+.skill-slider-testimonial .item img {
+  width: 100%;
+  margin: 0 auto 15px auto;
+}
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -386,7 +390,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-.skill img{
+.skill img {
   width: 200px;
 }
 
@@ -515,23 +519,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
-.modal-title{
+.modal-title {
   color: #151515;
 }
-.modal-body{
+.modal-body {
   color: #151515;
 }
-.modal-body{
+.modal-body {
   color: #151515;
 }
-.modal-body img{
+.modal-body img {
   padding: 5px;
   text-align: center;
 }
 /* .modal-footer{
   color: #151515;
 } */
-.modal-footer button{
+.modal-footer button {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
 }
 
@@ -688,4 +692,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/* TESTIMONIAL */
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
 }
