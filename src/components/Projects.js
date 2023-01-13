@@ -66,6 +66,12 @@ import webTecnogas1 from "../assets/img/web-tecnogas1.jpg";
 import webTecnogas2 from "../assets/img/web-tecnogas2.jpg";
 import webTecnogas3 from "../assets/img/web-tecnogas3.jpg";
 
+import designAPF from "../assets/img/design-APF.jpg";
+import designGemilang from "../assets/img/design-Gemilang.jpg";
+import designJones from "../assets/img/design-Jones.jpg";
+import designKATAR8 from "../assets/img/design-KATAR8.jpg";
+import designRT03 from "../assets/img/design-RT03.jpg";
+
 import ProjectCard from "./ProjectCard";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -113,6 +119,54 @@ export default function Projects() {
       description: "UI/UX Mobile iNada (Music Player)",
       imgDetails: {
         names: [uiuxiNada2, uiuxiNada1, uiuxiNada3],
+      },
+    },
+  ];
+
+  const projectsDesign = [
+    {
+      title: "APF Graphia",
+      imgUrl: designAPF,
+      tech: "Photoshop",
+      description: "Logo APF Graphia",
+      imgDetails: {
+        names: [designAPF],
+      },
+    },
+    {
+      title: "Karang Taruna RW08",
+      imgUrl: designKATAR8,
+      tech: "Photoshop",
+      description: "Logo Karang Taruna RW08",
+      imgDetails: {
+        names: [designKATAR8],
+      },
+    },
+    {
+      title: "Gemilang Futsal Family",
+      imgUrl: designGemilang,
+      tech: "Photoshop",
+      description: "Logo Gemilang Futsal Family",
+      imgDetails: {
+        names: [designGemilang],
+      },
+    },
+    {
+      title: "Jones FT",
+      imgUrl: designJones,
+      tech: "Photoshop",
+      description: "Logo Jones FT",
+      imgDetails: {
+        names: [designJones],
+      },
+    },
+    {
+      title: "Pemuda RT03",
+      imgUrl: designRT03,
+      tech: "Photoshop",
+      description: "Logo Pemuda RT03",
+      imgDetails: {
+        names: [designRT03],
       },
     },
   ];
@@ -203,11 +257,7 @@ export default function Projects() {
       tech: "HTML5, CSS3, React JS, Tailwind",
       description: "Jasa Service Tecnogas Indonesia",
       imgDetails: {
-        names: [
-          webTecnogas1,
-          webTecnogas2,
-          webTecnogas3
-        ],
+        names: [webTecnogas1, webTecnogas2, webTecnogas3],
       },
     },
   ];
@@ -272,9 +322,11 @@ export default function Projects() {
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy
+                  <Row>
+                    {projectsDesign.map((projectsDesign, index) => {
+                      return <ProjectCard key={index} {...projectsDesign} />;
+                    })}
+                  </Row>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
