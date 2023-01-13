@@ -33,7 +33,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill" id="testimonials">
       <Container>
         <Row>
           <Col>

@@ -65,6 +65,17 @@ export default function Navigation() {
               Projects
             </Nav.Link>
             <Nav.Link
+              href="#testimonials"
+              className={
+                activeLink === "testimonials"
+                  ? "active navbar-link"
+                  : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("testimonials")}
+            >
+              Testimonials
+            </Nav.Link>
+            <Nav.Link
               href="#contact"
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
