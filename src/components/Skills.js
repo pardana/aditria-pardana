@@ -42,7 +42,7 @@ export default function Skills() {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>My Skills</h2>
+              <h2 className="mb-5">My Skills</h2>
               {/* <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
