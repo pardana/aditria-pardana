@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import moment from "moment";
-import { BsWhatsapp, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsWhatsapp, BsInstagram, BsLinkedin, BsMedium } from "react-icons/bs";
 import { DiGithubBadge } from "react-icons/di";
 
 const dateTime = new Date();
@@ -12,9 +12,7 @@ export default function Footer() {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <Col sm={6}>
-            {/* <img src={logo} alt="Logo" /> */}
-          </Col>
+          <Col sm={6}>{/* <img src={logo} alt="Logo" /> */}</Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a
@@ -44,6 +42,13 @@ export default function Footer() {
                 target="_blank"
               >
                 <DiGithubBadge />
+              </a>
+              <a
+                style={{ color: "white", fontSize: 18 }}
+                href="https://medium.com/@appardana"
+                target="_blank"
+              >
+                <BsMedium />
               </a>
             </div>
             <p>
