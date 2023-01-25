@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import moment from "moment";
-import { BsWhatsapp, BsInstagram, BsLinkedin, BsMedium } from "react-icons/bs";
+import { BsWhatsapp, BsTelegram, BsInstagram, BsLinkedin, BsMedium } from "react-icons/bs";
 import { DiGithubBadge } from "react-icons/di";
 
 const dateTime = new Date();
@@ -21,6 +21,13 @@ export default function Footer() {
                 target="_blank"
               >
                 <BsWhatsapp />
+              </a>
+              <a
+                style={{ color: "white" }}
+                href="https://telegram.me/appardana"
+                target="_blank"
+              >
+                <BsTelegram />
               </a>
               <a
                 style={{ color: "white" }}
