@@ -10,7 +10,8 @@ import fikri from "../assets/img/author-fikri.jpg";
 import julius from "../assets/img/author-julius.jpg";
 import nibras from "../assets/img/author-nibras.jpg";
 import tatu from "../assets/img/author-tatu.jpg";
-import obisalegi from "../assets/img/author-obisalegi.jpg";
+import triMurdani from "../assets/img/author-tri.jpg";
+// import obisalegi from "../assets/img/author-obisalegi.jpg";
 
 export default function Testimonials() {
   const responsive = {
@@ -54,41 +55,6 @@ export default function Testimonials() {
                     <div className="card testimonial-card">
                       <div
                         className="card-up"
-                        style={{ backgroundColor: "#9d789b" }}
-                      ></div>
-                      <div className="avatar mx-auto bg-white">
-                        <img
-                          src={annisa}
-                          className="rounded-circle img-fluid"
-                        />
-                      </div>
-                      <div className="card-body" style={{ color: "black" }}>
-                        <h4>Annisa Shabrina</h4>
-                        <p style={{ fontSize: 14 }} className="mb-4">
-                          Software Quality Lead at PT. Lion Parcel
-                        </p>
-                        <hr />
-                        <p
-                          className="mt-4"
-                          style={{ color: "black", marginBottom: 24 }}
-                        >
-                          <i className="fa-quote-left"></i>Adit has a good
-                          capability in programming. Several Languange type is
-                          held by him especially PHP , Visual Basic and JAVA. He
-                          is a good partner to work with and responsible for any
-                          task assigned to him. I'm sure he can a be a hard
-                          worker wherever he works.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="item">
-                  <div className="col-md-10 mb-5 mb-md-0 d-flex align-items-stretch">
-                    <div className="card testimonial-card">
-                      <div
-                        className="card-up"
                         style={{ backgroundColor: "#7a81a8" }}
                       ></div>
                       <div className="avatar mx-auto bg-white">
@@ -100,7 +66,7 @@ export default function Testimonials() {
                       <div className="card-body" style={{ color: "black" }}>
                         <h4>Yulius Siregar</h4>
                         <p style={{ fontSize: 14 }} className="mb-4">
-                          Web Developer at PT. Fundo Sukses Bersama
+                          Web Developer <br /> PT. Fundo Sukses Bersama
                         </p>
                         <hr />
                         <p
@@ -129,12 +95,85 @@ export default function Testimonials() {
                         style={{ backgroundColor: "#6d5b98" }}
                       ></div>
                       <div className="avatar mx-auto bg-white">
+                        <img
+                          src={triMurdani}
+                          className="rounded-circle img-fluid"
+                        />
+                      </div>
+                      <div className="card-body" style={{ color: "black" }}>
+                        <h4>Tri Murdani</h4>
+                        <p style={{ fontSize: 14 }} className="mb-4">
+                          Fullstack Developer <br /> PT. Sinergi Global Servis
+                        </p>
+                        <hr />
+                        <p
+                          className="mt-4"
+                          style={{ color: "black", marginBottom: 24 }}
+                        >
+                          <i className="fa-quote-left"></i>Termasuk jiwa seorang
+                          laki-laki yang fokus dalam pekerjaan. Menjadikan
+                          dirinya dapat memberikan aura positif dan semangat
+                          jika bekerja. Bekerja sama dengan Aditria merupakan
+                          hal yang menyenangkan sekaligus menegangkan sehingga
+                          dapat memacu diri kita menjadi lebih berwawasan luas
+                          mengenai Teknologi. Aditria memiliki passion yang utuh
+                          dibidang IT kemampuannya tidak diragukan dan mempunyai
+                          semangat tinggi untuk terus belajar.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="col-md-10 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div className="card testimonial-card">
+                      <div
+                        className="card-up"
+                        style={{ backgroundColor: "#9d789b" }}
+                      ></div>
+                      <div className="avatar mx-auto bg-white">
+                        <img
+                          src={annisa}
+                          className="rounded-circle img-fluid"
+                        />
+                      </div>
+                      <div className="card-body" style={{ color: "black" }}>
+                        <h4>Annisa Shabrina</h4>
+                        <p style={{ fontSize: 14 }} className="mb-4">
+                          Software Quality Lead <br /> PT. Lion Parcel
+                        </p>
+                        <hr />
+                        <p
+                          className="mt-4"
+                          style={{ color: "black", marginBottom: 24 }}
+                        >
+                          <i className="fa-quote-left"></i>Adit has a good
+                          capability in programming. Several Languange type is
+                          held by him especially PHP , Visual Basic and JAVA. He
+                          is a good partner to work with and responsible for any
+                          task assigned to him. I'm sure he can a be a hard
+                          worker wherever he works.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="col-md-10 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div className="card testimonial-card">
+                      <div
+                        className="card-up"
+                        style={{ backgroundColor: "#7a81a8" }}
+                      ></div>
+                      <div className="avatar mx-auto bg-white">
                         <img src={tatu} className="rounded-circle img-fluid" />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
                         <h4>Ratu Tatu R.S.T.</h4>
                         <p style={{ fontSize: 14 }} className="mb-4">
-                          IT Probation at PT. Sinergi Global Servis
+                          IT Probation <br /> PT. Sinergi Global Servis
                         </p>
                         <hr />
                         <p
@@ -155,7 +194,7 @@ export default function Testimonials() {
                     <div className="card testimonial-card">
                       <div
                         className="card-up"
-                        style={{ backgroundColor: "#9d789b" }}
+                        style={{ backgroundColor: "#6d5b98" }}
                       ></div>
                       <div className="avatar mx-auto bg-white">
                         <img
@@ -166,7 +205,7 @@ export default function Testimonials() {
                       <div className="card-body" style={{ color: "black" }}>
                         <h4>M. Nibras Abilowo</h4>
                         <p style={{ fontSize: 14 }} className="mb-4">
-                          PPIC Staff at PT. Sanwa Screen Indonesia
+                          PPIC Lead <br /> PT. Sanwa Screen Indonesia
                         </p>
                         <hr />
                         <p
@@ -187,7 +226,7 @@ export default function Testimonials() {
                     <div className="card testimonial-card">
                       <div
                         className="card-up"
-                        style={{ backgroundColor: "#7a81a8" }}
+                        style={{ backgroundColor: "#9d789b" }}
                       ></div>
                       <div className="avatar mx-auto bg-white">
                         <img
@@ -198,7 +237,7 @@ export default function Testimonials() {
                       <div className="card-body" style={{ color: "black" }}>
                         <h4>Fachri Fatchurrohman</h4>
                         <p style={{ fontSize: 14 }} className="mb-4">
-                          Operation Manager at PT. F2RLink Indonesia Jaya
+                          Operation Manager <br /> PT. F2RLink Indonesia Jaya
                         </p>
                         <hr />
                         <p
@@ -226,7 +265,7 @@ export default function Testimonials() {
                       <div className="card-body" style={{ color: "black" }}>
                         <h4 className="mb-4">Fikri Fachrudin</h4>
                         <p style={{ fontSize: 14 }} className="mb-4">
-                          IT Network at PT. Cyberindo Aditama
+                          IT Network <br /> PT. Cyberindo Aditama
                         </p>
                         <hr />
                         <p
@@ -240,41 +279,6 @@ export default function Testimonials() {
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="item">
-                  <div className="col-md-10 mb-5 mb-md-0 d-flex align-items-stretch">
-                    <div className="card testimonial-card">
-                      <div
-                        className="card-up"
-                        style={{ backgroundColor: "#7a81a8" }}
-                      ></div>
-                      <div className="avatar mx-auto bg-white">
-                        <img
-                          src={obisalegi}
-                          className="rounded-circle img-fluid"
-                        />
-                      </div>
-                      <div className="card-body" style={{ color: "black" }}>
-                        <h4>M. Obisalegi Putra</h4>
-                        <p style={{ fontSize: 14 }} className="mb-4">
-                        IT Support Technician at PT. Brigitta I. Rahayoe & Partners
-                        </p>
-                        <hr />
-                        <p
-                          className="mt-4"
-                          style={{ color: "black", marginBottom: 24 }}
-                        >
-                          <i className="fa-quote-left"></i>Adit has a good
-                          capability in programming. Several Languange type is
-                          held by him especially PHP , Visual Basic and JAVA. He
-                          is a good partner to work with and responsible for any
-                          task assigned to him. I'm sure he can a be a hard
-                          worker wherever he works.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </Carousel>
             </div>
           </Col>
