@@ -51,9 +51,6 @@ import webMRMS2 from "../assets/img/web-MRMS2.png";
 import webMRMS3 from "../assets/img/web-MRMS3.png";
 import webMRMS4 from "../assets/img/web-MRMS4.png";
 
-import webTelepatia1 from "../assets/img/web-telepatia1.JPG";
-import webTelepatia2 from "../assets/img/web-telepatia2.JPG";
-
 import webLuxspace0 from "../assets/img/web-luxspace0.jpg";
 import webLuxspace1 from "../assets/img/web-luxspace1.jpg";
 import webLuxspace2 from "../assets/img/web-luxspace2.jpg";
@@ -65,6 +62,12 @@ import webLuxspace6 from "../assets/img/web-luxspace6.jpg";
 import webTecnogas1 from "../assets/img/web-tecnogas1.jpg";
 import webTecnogas2 from "../assets/img/web-tecnogas2.jpg";
 import webTecnogas3 from "../assets/img/web-tecnogas3.jpg";
+
+import webMutiara0 from "../assets/img/web-Mutiara0.jpg";
+import webMutiara1 from "../assets/img/web-Mutiara1.jpg";
+import webMutiara2 from "../assets/img/web-Mutiara2.jpg";
+import webMutiara3 from "../assets/img/web-Mutiara3.jpg";
+import webMutiara4 from "../assets/img/web-Mutiara4.jpg";
 
 import designAPF from "../assets/img/design-APF.jpg";
 import designGemilang from "../assets/img/design-Gemilang.jpg";
@@ -218,15 +221,6 @@ export default function Projects() {
       },
     },
     {
-      title: "Telepatia",
-      imgUrl: webTelepatia1,
-      tech: "HTML5, CSS3, Sass CSS",
-      description: "Landing Pages Card",
-      imgDetails: {
-        names: [webTelepatia1, webTelepatia2],
-      },
-    },
-    {
       title: "iCation",
       imgUrl: uiuxiCation1,
       tech: "HTML5, CSS3, React JS, Bootstrap",
@@ -258,6 +252,21 @@ export default function Projects() {
       description: "Jasa Service Tecnogas Indonesia",
       imgDetails: {
         names: [webTecnogas1, webTecnogas2, webTecnogas3],
+      },
+    },
+    {
+      title: "CV. Mutiara Dunia",
+      imgUrl: webMutiara0,
+      tech: "Wordpress",
+      description: "Company Profile",
+      imgDetails: {
+        names: [
+          webMutiara0,
+          webMutiara1,
+          webMutiara2,
+          webMutiara3,
+          webMutiara4,
+        ],
       },
     },
   ];

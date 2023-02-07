@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
             <p>
               &copy; {moment(dateTime).format("YYYY")}. All Right Reserved
-              Aditria P. Pardana
+              Aditria Pardana
             </p>
           </Col>
         </Row>
