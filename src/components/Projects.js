@@ -258,7 +258,7 @@ export default function Projects() {
       title: "CV. Mutiara Dunia",
       imgUrl: webMutiara0,
       tech: "Wordpress",
-      description: "Company Profile",
+      description: "Company Profile Percetakan di Bekasi",
       imgDetails: {
         names: [
           webMutiara0,
