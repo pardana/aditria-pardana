@@ -7,12 +7,14 @@ import logoCss from "../assets/img/logo-css.png";
 import logoJavascript from "../assets/img/logo-javascript.png";
 import logoReact from "../assets/img/logo-reactjs.png";
 import logoBootstrap from "../assets/img/logo-bootstrap.png";
+import logoTailwind from "../assets/img/logo-tailwind.png";
 import logoCodeigniter from "../assets/img/logo-codeigniter.png";
 import logoGit from "../assets/img/logo-git.png";
 import logoMysql from "../assets/img/logo-mysql.png";
 import logoFigma from "../assets/img/logo-figma.png";
 import logoPhotoshop from "../assets/img/logo-photoshop.png";
 import logoImovie from "../assets/img/logo-imovie.png";
+import logoWordpress from "../assets/img/logo-wordpress.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export default function Skills() {
@@ -58,48 +60,71 @@ export default function Skills() {
                 autoPlaySpeed={3000}
               >
                 <div className="item">
-                  <img src={logoHtml} alt="Image" />
+                  <img src={logoHtml} alt="logoHtml Aditria Pardana" />
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src={logoCss} alt="Image" />
+                  <img src={logoCss} alt="logoCss Aditria Pardana" />
                   <h5>CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={logoJavascript} alt="Image" />
+                  <img
+                    src={logoJavascript}
+                    alt="logoJavascript Aditria Pardana"
+                  />
                   <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={logoReact} alt="Image" />
+                  <img src={logoReact} alt="logoReact Aditria Pardana" />
                   <h5>React JS</h5>
                 </div>
                 <div className="item">
-                  <img src={logoBootstrap} alt="Image" />
+                  <img
+                    src={logoBootstrap}
+                    alt="logoBootstrap Aditria Pardana"
+                  />
                   <h5>Bootstrap</h5>
                 </div>
                 <div className="item">
-                  <img src={logoCodeigniter} alt="Image" />
+                  <img src={logoTailwind} alt="logoTailwind Aditria Pardana" />
+                  <h5>Tailwind CSS</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src={logoCodeigniter}
+                    alt="logoCodeigniter Aditria Pardana"
+                  />
                   <h5>CodeIgniter</h5>
                 </div>
                 <div className="item">
-                  <img src={logoMysql} alt="Image" />
+                  <img src={logoMysql} alt="logoMysql Aditria Pardana" />
                   <h5>MySQL</h5>
                 </div>
                 <div className="item">
-                  <img src={logoGit} alt="Image" />
+                  <img src={logoGit} alt="logoGit Aditria Pardana" />
                   <h5>Git</h5>
                 </div>
                 <div className="item">
-                  <img src={logoFigma} alt="Image" />
+                  <img src={logoFigma} alt="logoFigma Aditria Pardana" />
                   <h5>Figma</h5>
                 </div>
                 <div className="item">
-                  <img src={logoPhotoshop} alt="Image" />
+                  <img
+                    src={logoPhotoshop}
+                    alt="logoPhotoshop Aditria Pardana"
+                  />
                   <h5>Photoshop</h5>
                 </div>
                 <div className="item">
-                  <img src={logoImovie} alt="Image" />
+                  <img src={logoImovie} alt="logoImovie Aditria Pardana" />
                   <h5>iMovie</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src={logoWordpress}
+                    alt="logoWordpress Aditria Pardana"
+                  />
+                  <h5>Wordpress</h5>
                 </div>
               </Carousel>
             </div>
@@ -110,7 +135,7 @@ export default function Skills() {
       <img
         src={colorSharp}
         className="background-image-left"
-        alt="Color Sharp"
+        alt="Color Sharp Aditria Pardana"
       />
     </section>
   );

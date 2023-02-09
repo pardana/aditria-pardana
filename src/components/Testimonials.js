@@ -62,6 +62,7 @@ export default function Testimonials() {
                         <img
                           src={julius}
                           className="rounded-circle img-fluid"
+                          alt="julius Aditria Pardana"
                         />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
@@ -99,6 +100,7 @@ export default function Testimonials() {
                         <img
                           src={triMurdani}
                           className="rounded-circle img-fluid"
+                          alt="triMurdani Aditria Pardana"
                         />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
@@ -137,6 +139,7 @@ export default function Testimonials() {
                         <img
                           src={annisa}
                           className="rounded-circle img-fluid"
+                          alt="annisa Aditria Pardana"
                         />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
@@ -169,7 +172,11 @@ export default function Testimonials() {
                         style={{ backgroundColor: "#7a81a8" }}
                       ></div>
                       <div className="avatar mx-auto bg-white">
-                        <img src={tatu} className="rounded-circle img-fluid" />
+                        <img
+                          src={tatu}
+                          className="rounded-circle img-fluid"
+                          alt="tatu Aditria Pardana"
+                        />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
                         <h4>Ratu Tatu R.S.T.</h4>
@@ -201,6 +208,7 @@ export default function Testimonials() {
                         <img
                           src={nibras}
                           className="rounded-circle img-fluid"
+                          alt="nibras Aditria Pardana"
                         />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
@@ -233,6 +241,7 @@ export default function Testimonials() {
                         <img
                           src={fachri}
                           className="rounded-circle img-fluid"
+                          alt="fachri Aditria Pardana"
                         />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
@@ -261,7 +270,11 @@ export default function Testimonials() {
                         style={{ backgroundColor: "#6d5b98" }}
                       ></div>
                       <div className="avatar mx-auto bg-white">
-                        <img src={fikri} className="rounded-circle img-fluid" />
+                        <img
+                          src={fikri}
+                          className="rounded-circle img-fluid"
+                          alt="fikri Aditria Pardana"
+                        />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
                         <h4 className="mb-4">Fikri Fachrudin</h4>
@@ -289,7 +302,11 @@ export default function Testimonials() {
                         style={{ backgroundColor: "#9d789b" }}
                       ></div>
                       <div className="avatar mx-auto bg-white">
-                        <img src={asep} className="rounded-circle img-fluid" />
+                        <img
+                          src={asep}
+                          className="rounded-circle img-fluid"
+                          alt="asep Aditria Pardana"
+                        />
                       </div>
                       <div className="card-body" style={{ color: "black" }}>
                         <h4>Asep Marudin</h4>
@@ -318,7 +335,7 @@ export default function Testimonials() {
       <img
         src={colorSharp}
         className="background-image-left"
-        alt="Color Sharp"
+        alt="Color Sharp Aditria Pardana"
       />
     </section>
   );

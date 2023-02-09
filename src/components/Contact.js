@@ -54,7 +54,7 @@ export default function Contact() {
       <Container>
         <Row className="align-items-center">
           <Col md={6}>
-            <img src={contactImg} alt="Contact Image" />
+            <img src={contactImg} alt="Aditria Pardana" />
           </Col>
           <Col md={6}>
             <h2>Get in Touch</h2>
