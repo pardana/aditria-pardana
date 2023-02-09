@@ -11,6 +11,7 @@ import julius from "../assets/img/author-julius.jpg";
 import nibras from "../assets/img/author-nibras.jpg";
 import tatu from "../assets/img/author-tatu.jpg";
 import triMurdani from "../assets/img/author-tri.jpg";
+import asep from "../assets/img/author-asep.jpg";
 // import obisalegi from "../assets/img/author-obisalegi.jpg";
 
 export default function Testimonials() {
@@ -274,6 +275,35 @@ export default function Testimonials() {
                         >
                           <i className="fas fa-quote-left pe-2"></i>Adit a
                           Programmer and Business Man.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="col-md-10 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div className="card testimonial-card">
+                      <div
+                        className="card-up"
+                        style={{ backgroundColor: "#9d789b" }}
+                      ></div>
+                      <div className="avatar mx-auto bg-white">
+                        <img src={asep} className="rounded-circle img-fluid" />
+                      </div>
+                      <div className="card-body" style={{ color: "black" }}>
+                        <h4>Asep Marudin</h4>
+                        <p style={{ fontSize: 14 }} className="mb-4">
+                          Graphic Design <br /> CV. Mutiara Dunia
+                        </p>
+                        <hr />
+                        <p
+                          className="mt-4"
+                          style={{ color: "black", marginBottom: 24 }}
+                        >
+                          <i className="fa-quote-left"></i>Saya sudah order di
+                          layanan web ini, tidak pernah ada kecewa, apalagi
+                          support yang sangat cepat dan ramah, mantap pokonya.
                         </p>
                       </div>
                     </div>
