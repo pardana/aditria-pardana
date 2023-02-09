@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 import aditriaPardana from "../assets/img/AditriaPardana.jpg";
+import indonesiaFlag from "../assets/img/indonesia-flag.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -79,7 +80,7 @@ export default function Banner() {
                   }
                 >
                   <h2>Aditria Pardana</h2>
-                  <p>
+                  <p style={{ textAlign: "justify" }}>
                     Hola! I'm a
                     <span style={{ color: "#7569D8" }}>
                       {" "}
@@ -89,9 +90,12 @@ export default function Banner() {
                     the past, and they love my work! So I will be a valuable
                     assets to your company.
                   </p>
-                  <p>
+                  <p style={{ textAlign: "justify" }}>
                     Let me hear what you have in mind for me to develop for your
                     next apps! Let's start scrolling and learn more about me.
+                  </p>
+                  <p style={{ textAlign: "justify" }}>
+                    Remote worker from Indonesia &#127470;&#127465;{" "}
                   </p>
                   <Row className="align-items-center">
                     <Col xs={12} md={6} xl={3}>
