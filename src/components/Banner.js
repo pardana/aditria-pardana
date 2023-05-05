@@ -116,7 +116,7 @@ export default function Banner() {
                     </Col>
                     <Col xs={12} md={6} xl={4}>
                       <a
-                        href="https://resume.showwcase.com/appardana.pdf"
+                        href="https://resume.showwcase.com/appardana/2561.pdf"
                         target="_blank"
                       >
                         <button
