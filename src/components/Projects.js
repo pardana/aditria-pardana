@@ -69,6 +69,12 @@ import webMutiara2 from "../assets/img/web-Mutiara2.jpg";
 import webMutiara3 from "../assets/img/web-Mutiara3.jpg";
 import webMutiara4 from "../assets/img/web-Mutiara4.jpg";
 
+import webHLI0 from "../assets/img/web-HLI0.jpg";
+import webHLI1 from "../assets/img/web-HLI1.jpg";
+import webHLI2 from "../assets/img/web-HLI2.jpg";
+import webHLI3 from "../assets/img/web-HLI3.jpg";
+import webHLI4 from "../assets/img/web-HLI4.jpg";
+
 import designAPF from "../assets/img/design-APF.jpg";
 import designGemilang from "../assets/img/design-Gemilang.jpg";
 import designJones from "../assets/img/design-Jones.jpg";
@@ -122,6 +128,16 @@ export default function Projects() {
       description: "UI/UX Mobile iNada (Music Player)",
       imgDetails: {
         names: [uiuxiNada2, uiuxiNada1, uiuxiNada3],
+      },
+    },
+    {
+      title: "PT. HLI Green Power",
+      imgUrl: webHLI0,
+      tech: "Figma",
+      description:
+        "UI/UX Company Profile PT HLI Green Power will become the Number One Industry for Electric Vehicle Battery.",
+      imgDetails: {
+        names: [webHLI0, webHLI1, webHLI2, webHLI3, webHLI4],
       },
     },
   ];
@@ -232,7 +248,7 @@ export default function Projects() {
     {
       title: "Lux Space",
       imgUrl: webLuxspace0,
-      tech: "HTML5, CSS3, React JS, Tailwind",
+      tech: "HTML5, CSS3, React JS, Tailwind CSS",
       description: "Lux Space (Web Furniture like Ikea)",
       imgDetails: {
         names: [
@@ -248,7 +264,7 @@ export default function Projects() {
     {
       title: "Tecnogas Indonesia",
       imgUrl: webTecnogas1,
-      tech: "HTML5, CSS3, React JS, Tailwind",
+      tech: "HTML5, CSS3, React JS, Tailwind CSS",
       description: "Jasa Service Tecnogas Indonesia",
       imgDetails: {
         names: [webTecnogas1, webTecnogas2, webTecnogas3],
@@ -267,6 +283,16 @@ export default function Projects() {
           webMutiara3,
           webMutiara4,
         ],
+      },
+    },
+    {
+      title: "PT. HLI Green Power",
+      imgUrl: webHLI0,
+      tech: "React JS, Tailwind CSS",
+      description:
+        "Company Profile PT HLI Green Power will become the Number One Industry for Electric Vehicle Battery.",
+      imgDetails: {
+        names: [webHLI0, webHLI1, webHLI2, webHLI3, webHLI4],
       },
     },
   ];
