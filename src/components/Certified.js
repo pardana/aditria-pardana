@@ -10,7 +10,7 @@ import {
 
 export default function Certified() {
   return (
-    <div>as</div>
+    <div></div>
     // <MDBLightbox>
     //   <MDBRow>
     //     <MDBCol lg="6">
