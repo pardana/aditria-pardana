@@ -1,6 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+
+import designAPF from "../assets/img/design-APF.jpg";
+import designGemilang from "../assets/img/design-Gemilang.jpg";
+import designJones from "../assets/img/design-Jones.jpg";
+import designKATAR8 from "../assets/img/design-KATAR8.jpg";
+import designRT03 from "../assets/img/design-RT03.jpg";
+
 import uiuxGofurniture1 from "../assets/img/uiux-gofurniture1.jpg";
 import uiuxGofurniture2 from "../assets/img/uiux-gofurniture2.jpg";
 import uiuxGofurniture3 from "../assets/img/uiux-gofurniture3.jpg";
@@ -75,11 +82,8 @@ import webHLI2 from "../assets/img/web-HLI2.jpg";
 import webHLI3 from "../assets/img/web-HLI3.jpg";
 import webHLI4 from "../assets/img/web-HLI4.jpg";
 
-import designAPF from "../assets/img/design-APF.jpg";
-import designGemilang from "../assets/img/design-Gemilang.jpg";
-import designJones from "../assets/img/design-Jones.jpg";
-import designKATAR8 from "../assets/img/design-KATAR8.jpg";
-import designRT03 from "../assets/img/design-RT03.jpg";
+import webWeddingMaryaniAditria0 from "../assets/img/web-WeddingMaryaniAditria0.jpg";
+import webWeddingMaryaniAditria2 from "../assets/img/web-WeddingMaryaniAditria2.jpg";
 
 import ProjectCard from "./ProjectCard";
 import "animate.css";
@@ -273,7 +277,7 @@ export default function Projects() {
     {
       title: "CV. Mutiara Dunia",
       imgUrl: webMutiara0,
-      tech: "Wordpress",
+      tech: "Wordpress CMS",
       description: "Company Profile Percetakan di Bekasi",
       imgDetails: {
         names: [
@@ -288,11 +292,20 @@ export default function Projects() {
     {
       title: "PT. HLI Green Power",
       imgUrl: webHLI0,
-      tech: "React JS, Tailwind CSS",
+      tech: "Vite, React JS, Tailwind CSS, Integrated API via Laravel",
       description:
         "Company Profile PT HLI Green Power will become the Number One Industry for Electric Vehicle Battery.",
       imgDetails: {
         names: [webHLI0, webHLI1, webHLI2, webHLI3, webHLI4],
+      },
+    },
+    {
+      title: "Maryani & Aditria",
+      imgUrl: webWeddingMaryaniAditria0,
+      tech: "Vite, React JS, Tailwind CSS, Integrated API via Firebase",
+      description: "Wedding Online Invitation",
+      imgDetails: {
+        names: [webWeddingMaryaniAditria2],
       },
     },
   ];

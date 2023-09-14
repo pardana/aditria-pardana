@@ -16,7 +16,7 @@ export default function ProjectCard({
       <div className="proj-imgbx">
         <img src={imgUrl} alt={description} />
         <div className="proj-txtx">
-          <h4>{title}</h4>
+          <h4 className="px-2">{title}</h4>
           <span>{description}</span>
           <p style={{ fontSize: "15px" }}>Tech: {tech}</p>
 
