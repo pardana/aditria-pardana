@@ -304,15 +304,15 @@ export default function Projects() {
         names: [webHLI0, webHLI1, webHLI2, webHLI3, webHLI4],
       },
     },
-    {
-      title: "Maryani & Aditria",
-      imgUrl: webWeddingMaryaniAditria0,
-      tech: "Vite, React JS, Tailwind CSS, Integrated API via Firebase",
-      description: "Wedding Online Invitation",
-      imgDetails: {
-        names: [webWeddingMaryaniAditria2],
-      },
-    },
+    // {
+    //   title: "Maryani & Aditria",
+    //   imgUrl: webWeddingMaryaniAditria0,
+    //   tech: "Vite, React JS, Tailwind CSS, Integrated API via Firebase",
+    //   description: "Wedding Online Invitation",
+    //   imgDetails: {
+    //     names: [webWeddingMaryaniAditria2],
+    //   },
+    // },
   ];
 
   return (
