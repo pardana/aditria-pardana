@@ -182,7 +182,7 @@ export default function Testimonials() {
                       <div className="card-body" style={{ color: "black" }}>
                         <h4>Ratu Tatu R.S.T.</h4>
                         <p style={{ fontSize: 14 }} className="mb-4">
-                          IT Probation <br /> PT. Sinergi Global Servis
+                          IT Support Probation <br /> PT. Sinergi Global Servis
                         </p>
                         <hr />
                         <p
