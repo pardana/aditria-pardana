@@ -199,7 +199,8 @@ export default function Projects() {
       title: "PDMS",
       imgUrl: webPDMS1,
       tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Framework",
-      description: "PDMS (Product Development Manufacture System)",
+      description:
+        "PDMS (Product Development Manufacture System) with PT. Martina Berto (Martha Tilaar Group)",
       imgDetails: {
         names: [webPDMS1, webPDMS2, webPDMS3, webPDMS4, webPDMS5, webPDMS6],
       },
@@ -208,7 +209,8 @@ export default function Projects() {
       title: "iCargo",
       imgUrl: webIcargo0,
       tech: "HTML5, CSS3, Bootstrap, PHP Codeigniter",
-      description: "iCargo DO (Delivery Order)",
+      description:
+        "iCargo Modul DO Payment (Delivery Order) with PT. Integrasi Logistik Cipta Solusi",
       imgDetails: {
         names: [webIcargo1, webIcargo2, webIcargo3, webIcargo4],
       },
@@ -217,7 +219,8 @@ export default function Projects() {
       title: "SGS POS",
       imgUrl: webPOS1,
       tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Codeigniter",
-      description: "SGS POS (Point of Sales)",
+      description:
+        "SGS POS (Point of Sales) with PT. Sinergi Global Servis (Martha Tilaar Group)",
       imgDetails: {
         names: [webPOS1, webPOS2, webPOS3, webPOS4, webPOS5],
       },
@@ -226,7 +229,8 @@ export default function Projects() {
       title: "Floret POS",
       imgUrl: webFloret1,
       tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Codeigniter",
-      description: "Floret POS (Point of Sales)",
+      description:
+        "Floret POS (Point of Sales) with PT. Sinergi Global Servis (Martha Tilaar Group)",
       imgDetails: {
         names: [webFloret1, webFloret2, webFloret3, webFloret4],
       },
@@ -235,7 +239,8 @@ export default function Projects() {
       title: "MRMS",
       imgUrl: webMRMS0,
       tech: "HTML5, CSS3, Bootstrap, React JS",
-      description: "MRMS (Meeting Room Management System)",
+      description:
+        "App. MRMS (Meeting Room Management System) with PT. Corea System Indonesia",
       imgDetails: {
         names: [webMRMS1, webMRMS2, webMRMS3, webMRMS4],
       },

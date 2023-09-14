@@ -17,7 +17,7 @@ export default function ProjectCard({
         <img src={imgUrl} alt={description} />
         <div className="proj-txtx">
           <h4 className="px-2">{title}</h4>
-          <span>{description}</span>
+          <span className="px-2">{description}</span>
           <p style={{ fontSize: "15px" }}>Tech: {tech}</p>
 
           <Button variant="light" onClick={() => setModalShow(true)}>
