@@ -82,7 +82,7 @@ import webHLI2 from "../assets/img/web-HLI2.jpg";
 import webHLI3 from "../assets/img/web-HLI3.jpg";
 import webHLI4 from "../assets/img/web-HLI4.jpg";
 
-import webWeddingMaryaniAditria0 from "../assets/img/web-WeddingMaryaniAditria0.jpg";
+import webWeddingMaryaniAditria0 from "../assets/img/web-WeddingMaryaniAditria0.jpeg";
 import webWeddingMaryaniAditria2 from "../assets/img/web-WeddingMaryaniAditria2.jpg";
 
 import ProjectCard from "./ProjectCard";
@@ -304,15 +304,15 @@ export default function Projects() {
         names: [webHLI0, webHLI1, webHLI2, webHLI3, webHLI4],
       },
     },
-    // {
-    //   title: "Maryani & Aditria",
-    //   imgUrl: webWeddingMaryaniAditria0,
-    //   tech: "Vite, React JS, Tailwind CSS, Integrated API via Firebase",
-    //   description: "Wedding Online Invitation",
-    //   imgDetails: {
-    //     names: [webWeddingMaryaniAditria2],
-    //   },
-    // },
+    {
+      title: "Sylvia & Mesut",
+      imgUrl: webWeddingMaryaniAditria0,
+      tech: "Vite, React JS, Tailwind CSS, Integrated API via Firebase",
+      description: "Wedding Online Invitation",
+      imgDetails: {
+        names: [webWeddingMaryaniAditria2],
+      },
+    },
   ];
 
   return (
