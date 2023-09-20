@@ -87,7 +87,7 @@ import webWeddingMaryaniAditria2 from "../assets/img/web-WeddingMaryaniAditria2.
 
 import ProjectCard from "./ProjectCard";
 import "animate.css";
-import TrackVisibility from "react-on-screen";
+// import TrackVisibility from "react-on-screen";
 
 export default function Projects() {
   const projectsUIUX = [
@@ -386,7 +386,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <img src={colorSharp2} className="background-image-right" />
+      <img src={colorSharp2} alt="background" className="background-image-right" />
     </section>
   );
 }
