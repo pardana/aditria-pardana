@@ -13,7 +13,7 @@ import tatu from "../assets/img/author-tatu.jpg";
 import triMurdani from "../assets/img/author-tri.jpg";
 import asep from "../assets/img/author-asep.jpg";
 import novel from "../assets/img/author-novel.jpg";
-// import obisalegi from "../assets/img/author-obisalegi.jpg";
+import obisalegi from "../assets/img/author-obisalegi.jpg";
 
 export default function Testimonials() {
   const responsive = {
@@ -355,6 +355,43 @@ export default function Testimonials() {
                           <i className="fas fa-quote-left pe-2"></i>Partner yg
                           baik, kerjasama yg baik antara saya di Backend dan
                           Adit di Frontend.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="col-md-10 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div className="card testimonial-card">
+                      <div
+                        className="card-up"
+                        style={{ backgroundColor: "#9d789b" }}
+                      ></div>
+                      <div className="avatar mx-auto bg-white">
+                        <img
+                          src={obisalegi}
+                          className="rounded-circle img-fluid"
+                          alt="triMurdani Aditria Pardana"
+                        />
+                      </div>
+                      <div className="card-body" style={{ color: "black" }}>
+                        <h4>M. Obisalegi Putra</h4>
+                        <p style={{ fontSize: 14 }} className="mb-4">
+                          IT Support Technician <br />PT. Brigitta I.
+                          Rahayoe & Partners
+                        </p>
+                        <hr />
+                        <p
+                          className="mt-4"
+                          style={{ color: "black", marginBottom: 24 }}
+                        >
+                          <i className="fa-quote-left"></i>Selama ngambil
+                          project web kesan gua si ke elu seneng dit, karena lu
+                          mau kerja bareng sama gua buat project Web Tecnogas
+                          ini, dan itu juga menurut gua lu lihai untuk masalah
+                          web profile sampe project gua selesai dengan cepat dan
+                          gk lewat deadline.
                         </p>
                       </div>
                     </div>
