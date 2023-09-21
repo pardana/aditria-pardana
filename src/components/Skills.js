@@ -15,6 +15,11 @@ import logoFigma from "../assets/img/logo-figma.png";
 import logoPhotoshop from "../assets/img/logo-photoshop.png";
 import logoImovie from "../assets/img/logo-imovie.png";
 import logoWordpress from "../assets/img/logo-wordpress.png";
+import logoNextjs from "../assets/img/logo-nextjs.png";
+import logoPrisma from "../assets/img/logo-prisma.png";
+import logoSupabase from "../assets/img/logo-supabase.png";
+import logoPostgresql from "../assets/img/logo-postgresql.png";
+
 import colorSharp from "../assets/img/color-sharp.png";
 
 export default function Skills() {
@@ -79,6 +84,10 @@ export default function Skills() {
                   <h5>React JS</h5>
                 </div>
                 <div className="item">
+                  <img src={logoNextjs} alt="logoNext Aditria Pardana" />
+                  <h5>Next JS</h5>
+                </div>
+                <div className="item">
                   <img
                     src={logoBootstrap}
                     alt="logoBootstrap Aditria Pardana"
@@ -99,6 +108,21 @@ export default function Skills() {
                 <div className="item">
                   <img src={logoMysql} alt="logoMysql Aditria Pardana" />
                   <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src={logoPostgresql}
+                    alt="logoPostgresql Aditria Pardana"
+                  />
+                  <h5>PostgreSQL</h5>
+                </div>
+                <div className="item">
+                  <img src={logoPrisma} alt="logoPrisma Aditria Pardana" />
+                  <h5>Prisma</h5>
+                </div>
+                <div className="item">
+                  <img src={logoSupabase} alt="logoSupabase Aditria Pardana" />
+                  <h5>Supabase</h5>
                 </div>
                 <div className="item">
                   <img src={logoGit} alt="logoGit Aditria Pardana" />
