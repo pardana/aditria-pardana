@@ -85,6 +85,8 @@ import webHLI4 from "../assets/img/web-HLI4.jpg";
 import webWeddingMaryaniAditria0 from "../assets/img/web-WeddingMaryaniAditria0.jpeg";
 import webWeddingMaryaniAditria2 from "../assets/img/web-WeddingMaryaniAditria2.jpg";
 
+import webTravelAdvisor from "../assets/img/web-TravelAdvisor.png";
+
 import webPapanmasEstate0 from "../assets/img/web-Papanmas-Estate0.png";
 import webPapanmasEstate1 from "../assets/img/web-Papanmas-Estate.png";
 
@@ -96,6 +98,106 @@ import "animate.css";
 // import TrackVisibility from "react-on-screen";
 
 export default function Projects() {
+  const projectsWeb = [
+    {
+      title: "PDMS",
+      imgUrl: webPDMS1,
+      tech: "HTML5, CSS3, Javascript, jQuery, Bootstrap, PHP Gata Framework",
+      description:
+        "PDMS (Product Development Manufacture System) with PT. Martina Berto (Martha Tilaar Group)",
+      imgDetails: {
+        names: [webPDMS1, webPDMS2, webPDMS3, webPDMS4, webPDMS5, webPDMS6],
+      },
+    },
+    {
+      title: "iCargo",
+      imgUrl: webIcargo0,
+      tech: "HTML5, CSS3, Javascript, Bootstrap, PHP Codeigniter",
+      description:
+        "iCargo Modul DO Payment (Delivery Order) with PT. Integrasi Logistik Cipta Solusi",
+      imgDetails: {
+        names: [webIcargo1, webIcargo2, webIcargo3, webIcargo4],
+      },
+    },
+    {
+      title: "SGS POS",
+      imgUrl: webPOS1,
+      tech: "HTML5, CSS3, Javascript, jQuery, Bootstrap, PHP Gata Codeigniter",
+      description:
+        "SGS POS (Point of Sales) with PT. Sinergi Global Servis (Martha Tilaar Group)",
+      imgDetails: {
+        names: [webPOS1, webPOS2, webPOS3, webPOS4, webPOS5],
+      },
+    },
+    {
+      title: "Floret POS",
+      imgUrl: webFloret1,
+      tech: "HTML5, CSS3, Javascript, jQuery, Bootstrap, PHP Gata Codeigniter",
+      description:
+        "Floret POS (Point of Sales) with PT. Sinergi Global Servis (Martha Tilaar Group)",
+      imgDetails: {
+        names: [webFloret1, webFloret2, webFloret3, webFloret4],
+      },
+    },
+    {
+      title: "MRMS",
+      imgUrl: webMRMS0,
+      tech: "HTML5, CSS3, Javascript, Bootstrap, React JS",
+      description:
+        "App. MRMS (Meeting Room Management System) with PT. Corea System Indonesia",
+      imgDetails: {
+        names: [webMRMS1, webMRMS2, webMRMS3, webMRMS4],
+      },
+    },
+    {
+      title: "Tecnogas Indonesia",
+      imgUrl: webTecnogas1,
+      tech: "HTML5, CSS3, Javascript, React JS, Tailwind CSS",
+      description: "Jasa Service Tecnogas Indonesia",
+      linkUrl: "https://www.jasaservice-tecnogas.com/",
+      imgDetails: {
+        names: [webTecnogas1, webTecnogas2, webTecnogas3],
+      },
+    },
+    {
+      title: "CV. Mutiara Dunia",
+      imgUrl: webMutiara0,
+      tech: "Wordpress CMS",
+      description: "Company Profile Percetakan di Bekasi",
+      linkUrl: "https://mutiara-grafika.com/",
+      imgDetails: {
+        names: [
+          webMutiara0,
+          webMutiara1,
+          webMutiara2,
+          webMutiara3,
+          webMutiara4,
+        ],
+      },
+    },
+    {
+      title: "PT. HLI Green Power",
+      imgUrl: webHLI0,
+      tech: "Vite, Javascript, React JS, Tailwind CSS, Integrated API via Laravel",
+      description:
+        "Company Profile PT HLI Green Power will become the Number One Industry for Electric Vehicle Battery.",
+      linkUrl: "https://hligreenpower.com/",
+      imgDetails: {
+        names: [webHLI0, webHLI1, webHLI2, webHLI3, webHLI4],
+      },
+    },
+    {
+      title: "Sylvia & Mesut",
+      imgUrl: webWeddingMaryaniAditria0,
+      tech: "Vite, Javascript, React JS, Tailwind CSS, Integrated API via Firebase",
+      description: "Wedding Online Invitation",
+      linkUrl: "/",
+      imgDetails: {
+        names: [webWeddingMaryaniAditria2],
+      },
+    },
+  ];
+
   const projectsUIUX = [
     {
       title: "Gofurniture",
@@ -152,110 +254,13 @@ export default function Projects() {
     },
   ];
 
-  const projectsDesign = [
-    {
-      title: "APF Graphia",
-      imgUrl: designAPF,
-      tech: "Photoshop",
-      description: "Logo APF Graphia",
-      imgDetails: {
-        names: [designAPF],
-      },
-    },
-    {
-      title: "Karang Taruna RW08",
-      imgUrl: designKATAR8,
-      tech: "Photoshop",
-      description: "Logo Karang Taruna RW08",
-      imgDetails: {
-        names: [designKATAR8],
-      },
-    },
-    {
-      title: "Gemilang Futsal Family",
-      imgUrl: designGemilang,
-      tech: "Photoshop",
-      description: "Logo Gemilang Futsal Family",
-      imgDetails: {
-        names: [designGemilang],
-      },
-    },
-    {
-      title: "Jones FT",
-      imgUrl: designJones,
-      tech: "Photoshop",
-      description: "Logo Jones FT",
-      imgDetails: {
-        names: [designJones],
-      },
-    },
-    {
-      title: "Pemuda RT03",
-      imgUrl: designRT03,
-      tech: "Photoshop",
-      description: "Logo Pemuda RT03",
-      imgDetails: {
-        names: [designRT03],
-      },
-    },
-  ];
-
-  const projectsWeb = [
-    {
-      title: "PDMS",
-      imgUrl: webPDMS1,
-      tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Framework",
-      description:
-        "PDMS (Product Development Manufacture System) with PT. Martina Berto (Martha Tilaar Group)",
-      imgDetails: {
-        names: [webPDMS1, webPDMS2, webPDMS3, webPDMS4, webPDMS5, webPDMS6],
-      },
-    },
-    {
-      title: "iCargo",
-      imgUrl: webIcargo0,
-      tech: "HTML5, CSS3, Bootstrap, PHP Codeigniter",
-      description:
-        "iCargo Modul DO Payment (Delivery Order) with PT. Integrasi Logistik Cipta Solusi",
-      imgDetails: {
-        names: [webIcargo1, webIcargo2, webIcargo3, webIcargo4],
-      },
-    },
-    {
-      title: "SGS POS",
-      imgUrl: webPOS1,
-      tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Codeigniter",
-      description:
-        "SGS POS (Point of Sales) with PT. Sinergi Global Servis (Martha Tilaar Group)",
-      imgDetails: {
-        names: [webPOS1, webPOS2, webPOS3, webPOS4, webPOS5],
-      },
-    },
-    {
-      title: "Floret POS",
-      imgUrl: webFloret1,
-      tech: "HTML5, CSS3, jQuery, Bootstrap, PHP Gata Codeigniter",
-      description:
-        "Floret POS (Point of Sales) with PT. Sinergi Global Servis (Martha Tilaar Group)",
-      imgDetails: {
-        names: [webFloret1, webFloret2, webFloret3, webFloret4],
-      },
-    },
-    {
-      title: "MRMS",
-      imgUrl: webMRMS0,
-      tech: "HTML5, CSS3, Bootstrap, React JS",
-      description:
-        "App. MRMS (Meeting Room Management System) with PT. Corea System Indonesia",
-      imgDetails: {
-        names: [webMRMS1, webMRMS2, webMRMS3, webMRMS4],
-      },
-    },
+  const projectsExlporers = [
     {
       title: "iCation",
       imgUrl: uiuxiCation1,
-      tech: "HTML5, CSS3, React JS, Bootstrap",
+      tech: "HTML5, CSS3, Javascript, React JS, Bootstrap",
       description: "iCation (Hotel Vacation)",
+      linkUrl: "https://ication-iapptech.netlify.app/",
       imgDetails: {
         names: [uiuxiCation1, uiuxiCation2, uiuxiCation3, uiuxiCation4],
       },
@@ -263,7 +268,7 @@ export default function Projects() {
     {
       title: "Lux Space",
       imgUrl: webLuxspace0,
-      tech: "HTML5, CSS3, React JS, Tailwind CSS",
+      tech: "HTML5, CSS3, Javascript, React JS, Tailwind CSS",
       description: "Lux Space (Web Furniture like Ikea)",
       linkUrl: "https://luxspace-roan.vercel.app/",
       imgDetails: {
@@ -278,57 +283,20 @@ export default function Projects() {
       },
     },
     {
-      title: "Tecnogas Indonesia",
-      imgUrl: webTecnogas1,
-      tech: "HTML5, CSS3, React JS, Tailwind CSS",
-      description: "Jasa Service Tecnogas Indonesia",
-      linkUrl: "https://www.jasaservice-tecnogas.com/",
+      title: "Travel Advisor",
+      imgUrl: webTravelAdvisor,
+      tech: "HTML5, CSS3, Javascript, React JS, Material UI, Integrated via Rapid API",
+      description: "Travel Apps",
+      linkUrl: "https://travel-advisor-iapptech.netlify.app/",
       imgDetails: {
-        names: [webTecnogas1, webTecnogas2, webTecnogas3],
-      },
-    },
-    {
-      title: "CV. Mutiara Dunia",
-      imgUrl: webMutiara0,
-      tech: "Wordpress CMS",
-      description: "Company Profile Percetakan di Bekasi",
-      linkUrl: "https://mutiara-grafika.com/",
-      imgDetails: {
-        names: [
-          webMutiara0,
-          webMutiara1,
-          webMutiara2,
-          webMutiara3,
-          webMutiara4,
-        ],
-      },
-    },
-    {
-      title: "PT. HLI Green Power",
-      imgUrl: webHLI0,
-      tech: "Vite, React JS, Tailwind CSS, Integrated API via Laravel",
-      description:
-        "Company Profile PT HLI Green Power will become the Number One Industry for Electric Vehicle Battery.",
-      linkUrl: "https://hligreenpower.com/",
-      imgDetails: {
-        names: [webHLI0, webHLI1, webHLI2, webHLI3, webHLI4],
-      },
-    },
-    {
-      title: "Sylvia & Mesut",
-      imgUrl: webWeddingMaryaniAditria0,
-      tech: "Vite, React JS, Tailwind CSS, Integrated API via Firebase",
-      description: "Wedding Online Invitation",
-      linkUrl: "",
-      imgDetails: {
-        names: [webWeddingMaryaniAditria2],
+        names: [webTravelAdvisor],
       },
     },
     {
       title: "Papanmas Estate",
       imgUrl: webPapanmasEstate0,
-      tech: "HTML5, CSS3, Next JS, Chakra UI",
-      description: "Wedding Online Invitation",
+      tech: "HTML5, CSS3, Javascript, Next JS, Chakra UI, Integrated via Rapid API",
+      description: "Real Estate App",
       linkUrl: "https://papanmas-estate.vercel.app/",
       imgDetails: {
         names: [webPapanmasEstate1],
@@ -337,14 +305,62 @@ export default function Projects() {
     {
       title: "AP Travel",
       imgUrl: webAPTravel0,
-      tech: "HTML5, CSS3, Typescript, Next JS, Tailwind CSS",
-      description: "Wedding Online Invitation",
+      tech: "HTML5, CSS3, Typescript, Next JS, Tailwind CSS, Integrated via Rapid API",
+      description: "Travel Apps",
       linkUrl: "https://aptravel.vercel.app/",
       imgDetails: {
         names: [webAPTravel1],
       },
     },
   ];
+
+  // const projectsDesign = [
+  //   {
+  //     title: "APF Graphia",
+  //     imgUrl: designAPF,
+  //     tech: "Photoshop",
+  //     description: "Logo APF Graphia",
+  //     imgDetails: {
+  //       names: [designAPF],
+  //     },
+  //   },
+  //   {
+  //     title: "Karang Taruna RW08",
+  //     imgUrl: designKATAR8,
+  //     tech: "Photoshop",
+  //     description: "Logo Karang Taruna RW08",
+  //     imgDetails: {
+  //       names: [designKATAR8],
+  //     },
+  //   },
+  //   {
+  //     title: "Gemilang Futsal Family",
+  //     imgUrl: designGemilang,
+  //     tech: "Photoshop",
+  //     description: "Logo Gemilang Futsal Family",
+  //     imgDetails: {
+  //       names: [designGemilang],
+  //     },
+  //   },
+  //   {
+  //     title: "Jones FT",
+  //     imgUrl: designJones,
+  //     tech: "Photoshop",
+  //     description: "Logo Jones FT",
+  //     imgDetails: {
+  //       names: [designJones],
+  //     },
+  //   },
+  //   {
+  //     title: "Pemuda RT03",
+  //     imgUrl: designRT03,
+  //     tech: "Photoshop",
+  //     description: "Logo Pemuda RT03",
+  //     imgDetails: {
+  //       names: [designRT03],
+  //     },
+  //   },
+  // ];
 
   return (
     <section className="project" id="projects">
@@ -384,7 +400,7 @@ export default function Projects() {
                   <Nav.Link eventKey="second">UI/UX</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third"> Design</Nav.Link>
+                  <Nav.Link eventKey="third">Explorers</Nav.Link>
                 </Nav.Item>
               </Nav>
 
@@ -407,11 +423,19 @@ export default function Projects() {
 
                 <Tab.Pane eventKey="third">
                   <Row>
+                    {projectsExlporers.map((projectsExlporers, index) => {
+                      return <ProjectCard key={index} {...projectsExlporers} />;
+                    })}
+                  </Row>
+                </Tab.Pane>
+
+                {/* <Tab.Pane eventKey="third">
+                  <Row>
                     {projectsDesign.map((projectsDesign, index) => {
                       return <ProjectCard key={index} {...projectsDesign} />;
                     })}
                   </Row>
-                </Tab.Pane>
+                </Tab.Pane> */}
               </Tab.Content>
             </Tab.Container>
           </Col>
