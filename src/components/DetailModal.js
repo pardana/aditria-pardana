@@ -8,6 +8,7 @@ export default function DetailModal(props) {
       size="xs"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      style={{ zIndex: 1050, position: "fixed" }}
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">Detail</Modal.Title>

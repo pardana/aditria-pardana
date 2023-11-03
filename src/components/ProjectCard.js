@@ -39,6 +39,7 @@ export default function ProjectCard({
             {...imgDetails}
             show={modalShow}
             onHide={() => setModalShow(false)}
+            className="z-999"
           />
         </div>
       </div>

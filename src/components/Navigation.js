@@ -26,7 +26,11 @@ export default function Navigation() {
 
   return (
     // <Router>
-    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+    <Navbar
+      expand="md"
+      className={scrolled ? "scrolled" : ""}
+      style={{ zIndex: 900 }}
+    >
       <Container>
         <Navbar.Brand href="/">
           {/* <img src={logo} alt="Logo" /> */}
