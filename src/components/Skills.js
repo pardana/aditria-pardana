@@ -19,6 +19,8 @@ import logoNextjs from "../assets/img/logo-nextjs.png";
 import logoPrisma from "../assets/img/logo-prisma.png";
 import logoSupabase from "../assets/img/logo-supabase.png";
 import logoPostgresql from "../assets/img/logo-postgresql.png";
+import logoVercel from "../assets/img/logo-vercel.png";
+import logoNetlify from "../assets/img/logo-netlify.png";
 
 import colorSharp from "../assets/img/color-sharp.png";
 
@@ -149,6 +151,14 @@ export default function Skills() {
                     alt="logoWordpress Aditria Pardana"
                   />
                   <h5>Wordpress</h5>
+                </div>
+                <div className="item">
+                  <img src={logoVercel} alt="logoVercel Aditria Pardana" />
+                  <h5>Vercel</h5>
+                </div>
+                <div className="item">
+                  <img src={logoNetlify} alt="logoNetlify Aditria Pardana" />
+                  <h5>Netlify</h5>
                 </div>
               </Carousel>
             </div>
