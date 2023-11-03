@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import logoHtml from "../assets/img/logo-html.png";
 import logoCss from "../assets/img/logo-css.png";
 import logoJavascript from "../assets/img/logo-javascript.png";
+import logoTypescript from "../assets/img/logo-typescript.png";
 import logoReact from "../assets/img/logo-reactjs.png";
 import logoBootstrap from "../assets/img/logo-bootstrap.png";
 import logoTailwind from "../assets/img/logo-tailwind.png";
@@ -80,6 +81,13 @@ export default function Skills() {
                     alt="logoJavascript Aditria Pardana"
                   />
                   <h5>Javascript</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src={logoTypescript}
+                    alt="logoTypescript Aditria Pardana"
+                  />
+                  <h5>Typescript</h5>
                 </div>
                 <div className="item">
                   <img src={logoReact} alt="logoReact Aditria Pardana" />
