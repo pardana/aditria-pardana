@@ -8,6 +8,7 @@ export default function ProjectCard({
   imgUrl,
   tech,
   imgDetails,
+  linkUrl,
 }) {
   const [modalShow, setModalShow] = useState(false);
 
@@ -20,9 +21,19 @@ export default function ProjectCard({
           <span className="px-2">{description}</span>
           <p style={{ fontSize: "15px" }}>Tech: {tech}</p>
 
-          <Button variant="light" onClick={() => setModalShow(true)}>
+          <Button
+            variant="light"
+            onClick={() => setModalShow(true)}
+            className="mx-2"
+          >
             View
           </Button>
+
+          <a href={linkUrl} target="_blank" rel="noreferrer">
+            <Button variant="dark" className="">
+              Link
+            </Button>
+          </a>
 
           <DetailModal
             {...imgDetails}
