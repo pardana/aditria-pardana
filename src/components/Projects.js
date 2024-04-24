@@ -93,6 +93,10 @@ import webPapanmasEstate1 from "../assets/img/web-Papanmas-Estate.png";
 import webAPTravel0 from "../assets/img/web-AP-Travel0.png";
 import webAPTravel1 from "../assets/img/web-AP-Travel.png";
 
+import webReactJobs0 from "../assets/img/web-reactJobs0.jpg";
+import webReactJobs1 from "../assets/img/web-reactJobs1.jpg";
+import webReactJobs2 from "../assets/img/web-reactJobs2.jpg";
+
 import ProjectCard from "./ProjectCard";
 import "animate.css";
 // import TrackVisibility from "react-on-screen";
@@ -310,6 +314,15 @@ export default function Projects() {
       linkUrl: "https://aptravel.vercel.app/",
       imgDetails: {
         names: [webAPTravel1],
+      },
+    },{
+      title: "React Jobs",
+      imgUrl: webReactJobs0,
+      tech: "HTML5, CSS3, React JS, Tailwind CSS",
+      description: "Jobs Portal Apps",
+      linkUrl: "https://react-jobss.netlify.app/",
+      imgDetails: {
+        names: [webReactJobs0, webReactJobs1, webReactJobs2],
       },
     },
   ];
