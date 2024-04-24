@@ -96,6 +96,7 @@ import webAPTravel1 from "../assets/img/web-AP-Travel.png";
 import webReactJobs0 from "../assets/img/web-reactJobs0.jpg";
 import webReactJobs1 from "../assets/img/web-reactJobs1.jpg";
 import webReactJobs2 from "../assets/img/web-reactJobs2.jpg";
+import webReactJobs3 from "../assets/img/web-reactJobs3.jpg";
 
 import ProjectCard from "./ProjectCard";
 import "animate.css";
@@ -315,14 +316,15 @@ export default function Projects() {
       imgDetails: {
         names: [webAPTravel1],
       },
-    },{
+    },
+    {
       title: "React Jobs",
       imgUrl: webReactJobs0,
       tech: "HTML5, CSS3, React JS, Tailwind CSS",
       description: "Jobs Portal Apps",
       linkUrl: "https://react-jobss.netlify.app/",
       imgDetails: {
-        names: [webReactJobs0, webReactJobs1, webReactJobs2],
+        names: [webReactJobs0, webReactJobs1, webReactJobs2, webReactJobs3],
       },
     },
   ];
